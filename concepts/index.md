@@ -1,7 +1,5 @@
 # Concepts
 
-The `concepts/` folder is a lightweight, definition-first glossary for core AI and AI security terms used throughout this repo.
-
 - [AI Agent](./ai-agent.md)
 - [AI Gateway](./ai-gateway.md)
 - [AI Infrastructure](./ai-infrastructure.md)

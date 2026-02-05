@@ -3,6 +3,7 @@
 - [AI Agent](./ai-agent.md)
 - [AI Gateway](./ai-gateway.md)
 - [AI Infrastructure](./ai-infrastructure.md)
+- [Chatbot](./chatbot.md)
 - [Evaluations (Evals)](./evaluations-evals.md)
 - [Fine-tuning](./fine-tuning.md)
 - [Inference Provider](./inference-provider.md)

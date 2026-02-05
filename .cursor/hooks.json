@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "stop": [
+      {
+        "command": "bash .cursor/hooks/run-precommit.sh",
+        "timeout": 300
+      }
+    ]
+  }
+}

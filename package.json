@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "prepare": "husky",
-    "check-links": "markdown-link-check --config .markdown-link-check.json",
+    "check-links": "markdown-link-check --config .markdown-link-check.json *.md concepts/*.md",
     "check-quotes": "node scripts/check-quotes.js",
     "lint:md": "markdownlint-cli2",
     "format": "prettier --write .",

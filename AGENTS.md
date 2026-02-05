@@ -17,25 +17,61 @@ This repository is a lightweight knowledge base of my notes on **AI** and **secu
 - Start with `concepts/` when you need a shared definition for a discussion, design doc, or review.
 - Treat the notes as a living glossary: update entries as understanding changes or best practices evolve.
 
-## Conventions for new notes
+## Writing concept notes
 
-- Keep notes **short** and **practical** (one screen when possible).
-- Prefer **clear definitions** plus 1-2 sentences on why it matters in production.
-- Put **term definitions** in `concepts/`. In other files, reference/link to the relevant concept note rather than duplicating definitions.
-- When relevant, connect concepts (e.g. how **telemetry** feeds **evals**, how **evals** gate releases, how **observability** catches regressions).
+Concept notes live in `concepts/` and define core terms for reference across the repo. Keep them **short** (one screen when possible), **definition-first**, and **linked** to related concepts.
 
-## Consistency rules for concepts (when adding or updating)
+### Naming
 
-- Prefer **one canonical concept note per idea**. Before creating a new file, check whether the concept already exists under a synonym; if it does, update the existing note and add the synonym under "Also called".
-- Keep **names consistent**:
-  - File name: kebab-case (e.g. `ai-gateway.md`).
-  - Title: matches the primary term (first line `# Term Name`).
-  - Use the same term casing/spelling across notes; avoid introducing near-duplicates (e.g. "AI Observability" vs "Observability Tools") unless you intentionally split scope.
-- Use a **definition-first shape**:
-  - Start with a crisp 1-2 sentence definition.
-  - Use optional, consistent labels when helpful: "Also called: ...", "Why it matters: ...", "Examples: ...", "See also: ...".
-- Avoid **duplicating definitions across notes**. If another concept is needed, link to it (relative link within `concepts/`) rather than restating it.
-- When you **change a definition/scope**, do a quick pass over related notes and update any links/wording that would now be inconsistent (especially parent/child concepts and "Also called" synonyms).
+- **File name**: kebab-case (e.g. `ai-gateway.md`)
+- **Title**: `# Term Name` on line 1, matching the primary term
+- Use consistent casing/spelling across notes; avoid near-duplicates (e.g. "AI Observability" vs "Observability Tools") unless scope intentionally differs
+
+### Structure
+
+Every concept note follows this shape:
+
+```markdown
+# Term Name
+
+Also called: synonym1, synonym2.
+
+A 1-2 sentence definition of what the term means.
+
+Optional additional context: typical behaviors, scope, or how it works in practice.
+
+Why it matters: 1-2 sentences on production relevance.
+
+Examples: concrete examples if helpful.
+
+See also: [Related Concept](./related-concept.md), [Another](./another.md).
+```
+
+**Required elements:**
+
+- Title (`# Term Name`)
+- Definition (1-2 sentences immediately after title or "Also called")
+
+**Optional elements** (use when helpful, in this order):
+
+- `Also called:` -- synonyms, placed right after the title
+- Additional context paragraphs
+- `Why it matters:` -- production relevance
+- `Note:` -- clarifications
+- `Examples:` -- concrete instances
+- `See also:` -- links to related concepts
+
+### Linking and avoiding duplication
+
+- **One canonical note per idea**. Before creating a new file, check if the concept exists under a synonym; if so, update the existing note and add the synonym under "Also called".
+- **Link, don't duplicate**. If another concept is needed, use a relative link (e.g. `[LLM](./large-language-model.md)`) rather than restating the definition.
+- **Update related notes** when changing a definition/scope--check parent/child concepts and "Also called" synonyms for consistency.
+
+### General conventions
+
+- Keep notes **practical**--prefer clear definitions plus 1-2 sentences on why it matters.
+- **Connect concepts** when relevant (e.g. how telemetry feeds evals, how evals gate releases).
+- For non-concept files, reference/link to concept notes rather than duplicating definitions.
 
 ## Tools
 

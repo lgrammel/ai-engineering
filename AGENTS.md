@@ -40,8 +40,6 @@ A 1-2 sentence definition of what the term means.
 
 Optional additional context: typical behaviors, scope, or how it works in practice.
 
-Why it matters: 1-2 sentences on production relevance.
-
 Examples: concrete examples if helpful.
 
 See also: [Related Concept](./related-concept.md), [Another](./another.md).
@@ -56,10 +54,11 @@ See also: [Related Concept](./related-concept.md), [Another](./another.md).
 
 - `Synonyms:` -- synonyms, placed right after the title. Do not include links here; use plain text only.
 - Additional context paragraphs
-- `Why it matters:` -- production relevance
 - `Note:` -- clarifications
 - `Examples:` -- concrete instances
 - `See also:` -- links to related concepts
+
+Do not include `Why it matters:` sections in concept notes. If production relevance is important, incorporate it briefly into the definition or the additional context instead.
 
 ### Linking and avoiding duplication
 

@@ -8,6 +8,4 @@ In [agent](./ai-agent.md) systems, a sandbox is where "tools" run (shell command
 
 Typical controls: per-sandbox filesystem (ephemeral or mounted workspace), read/write allowlists, network egress rules, CPU/memory/time limits, process isolation, and audit logs.
 
-Why it matters: lets you execute untrusted code safely, reduce the blast radius of prompt injection or supply-chain attacks, and make tool execution more reproducible for debugging and [evals](./evaluations-evals.md).
-
 Examples: Docker-based local sandboxes, Firecracker microVMs, WASM runtimes, in-memory language interpreters.

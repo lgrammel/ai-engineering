@@ -1,0 +1,18 @@
+{
+  // Use default rules with some adjustments
+  "default": true,
+
+  // Allow longer lines (documentation often has long lines)
+  "MD013": false,
+
+  // Allow duplicate headings in different sections
+  "MD024": {
+    "siblings_only": true
+  },
+
+  // Allow trailing punctuation in headings (e.g., "Why it matters:")
+  "MD026": false,
+
+  // Allow inline HTML if needed
+  "MD033": false
+}

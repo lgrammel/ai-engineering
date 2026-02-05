@@ -4,14 +4,21 @@
   "type": "module",
   "scripts": {
     "prepare": "husky",
-    "check-links": "markdown-link-check --config .markdown-link-check.json"
+    "check-links": "markdown-link-check --config .markdown-link-check.json",
+    "check-quotes": "node scripts/check-quotes.js",
+    "lint:md": "markdownlint-cli2"
   },
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
-    "markdown-link-check": "^3.13.6"
+    "markdown-link-check": "^3.13.6",
+    "markdownlint-cli2": "^0.17.2"
   },
   "lint-staged": {
-    "*.md": "markdown-link-check --config .markdown-link-check.json"
+    "*.md": [
+      "markdownlint-cli2",
+      "markdown-link-check --config .markdown-link-check.json",
+      "node scripts/check-quotes.js"
+    ]
   }
 }

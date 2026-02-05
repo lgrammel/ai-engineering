@@ -41,6 +41,10 @@ A 1-2 sentence definition of what the term means.
 Optional additional context: typical behaviors, scope, or how it works in practice.
 
 Examples: concrete examples if helpful.
+
+## External references
+
+- https://example.com/source
 ```
 
 **Required elements:**
@@ -54,6 +58,7 @@ Examples: concrete examples if helpful.
 - Additional context paragraphs
 - `Note:` -- clarifications
 - `Examples:` -- concrete instances
+- `## External references` -- external sources/links only (URLs outside this repo), placed at the bottom of the note
 
 Do not include `Why it matters:` sections in concept notes. If production relevance is important, incorporate it briefly into the definition or the additional context instead.
 

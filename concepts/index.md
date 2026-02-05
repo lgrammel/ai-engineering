@@ -11,5 +11,6 @@
 - [Model Developer (Model Creator)](./model-developer.md)
 - [Observability Tools](./observability-tools.md)
 - [Prompt](./prompt.md)
+- [Prompt Injection](./prompt-injection.md)
 - [Sandbox](./sandbox.md)
 - [Sandbox Service](./sandbox-service.md)

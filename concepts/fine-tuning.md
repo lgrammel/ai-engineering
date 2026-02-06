@@ -1,6 +1,6 @@
 # Fine-tuning
 
-Further training of an existing [model](./model.md) on a narrower dataset to change or improve its behavior (for example instruction-following, style, safety, or domain expertise). Fine-tuning is typically cheaper than pretraining from scratch.
+Further training of an existing [model](./model.md) on a narrower dataset to change or improve its behavior (for example instruction-following, style, safety, or domain expertise). Fine-tuning is typically cheaper than [pretraining](./pretraining.md) from scratch.
 
 Fine-tuning is one form of [training](./training.md); it changes the model's weights so that its behavior during [inference](./inference.md) is different for similar inputs.
 

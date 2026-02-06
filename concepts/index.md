@@ -14,6 +14,7 @@
 - [Model](./model.md)
 - [Model Developer (Model Creator)](./model-developer.md)
 - [Observability Tools](./observability-tools.md)
+- [Pretraining](./pretraining.md)
 - [Prompt](./prompt.md)
 - [Prompt Injection](./prompt-injection.md)
 - [Sandbox](./sandbox.md)

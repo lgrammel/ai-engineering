@@ -16,4 +16,9 @@ Resource overload can also occur unintentionally through runaway agent loops or 
 
 - Resource limits on compute, API quotas, and cost
 - Bounded iteration limits on [tool](../concepts/tools.md) call loops and [reasoning](../concepts/reasoning.md) chains
+- Rate limiting on incoming requests to prevent flooding
 - [Observability](../concepts/observability.md) for detecting runaway loops and anomalous resource consumption
+
+## Synonyms
+
+denial of service, denial of wallet, resource exhaustion

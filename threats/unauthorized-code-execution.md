@@ -17,3 +17,4 @@ The risk is elevated when agents generate and run code dynamically, because the 
 - [Sandboxing](../concepts/sandbox.md) all agent-generated code execution
 - Restricting available system calls and network access in execution environments
 - Input sanitization before code generation and execution
+- Static analysis or review of generated code before execution

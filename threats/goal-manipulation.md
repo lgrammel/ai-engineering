@@ -20,4 +20,4 @@ A specific variant is Agent Hijacking, where adversarial data ingested by the ag
 
 ## Synonyms
 
-Intent Breaking & Goal Manipulation
+intent breaking, agent hijacking

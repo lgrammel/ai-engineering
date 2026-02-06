@@ -1,6 +1,7 @@
 # Concepts
 
 - [Agent](./agent.md)
+- [Agent Runtime](./agent-runtime.md)
 - [AI Gateway](./ai-gateway.md)
 - [AI Infrastructure](./ai-infrastructure.md)
 - [Chatbot](./chatbot.md)

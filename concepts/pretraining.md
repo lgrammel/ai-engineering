@@ -1,6 +1,6 @@
 # Pretraining
 
-Pretraining is large-scale [training](./training.md) of a model on broad data to learn general representations (for LLMs, typically via self-supervised objectives like next-token prediction), producing a general-purpose base model.
+Pretraining is large-scale [training](./training.md) of a model on broad data to learn general representations (for LLMs, typically via self-supervised objectives like next-[token](./token.md) prediction over sequences from a [tokenizer](./tokenizer.md)), producing a general-purpose base model.
 
 Pretraining is commonly the first phase of training that establishes broad capabilities; later phases such as [fine-tuning](./fine-tuning.md) adapt the model to specific tasks, formats, or policies.
 

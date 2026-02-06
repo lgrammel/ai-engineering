@@ -2,7 +2,9 @@
 
 Training is the process of learning or updating a model's parameters (weights) from data by optimizing an objective (loss), typically using gradient-based methods such as backpropagation.
 
-In LLM systems, training includes large-scale [pretraining](./pretraining.md) as well as further training such as [fine-tuning](./fine-tuning.md); the result of training is a [model](./model.md) that can later be run during [inference](./inference.md).
+In LLM systems, training commonly optimizes next-[token](./token.md) prediction over sequences produced by a [tokenizer](./tokenizer.md).
+
+Training includes large-scale [pretraining](./pretraining.md) as well as further training such as [fine-tuning](./fine-tuning.md); the result of training is a [model](./model.md) that can later be run during [inference](./inference.md).
 
 ## Examples
 

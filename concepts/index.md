@@ -19,6 +19,8 @@
 - [Prompt Injection](./prompt-injection.md)
 - [Sandbox](./sandbox.md)
 - [Sandbox Service](./sandbox-service.md)
+- [Token](./token.md)
+- [Tokenizer](./tokenizer.md)
 - [Training](./training.md)
 - [Transformer Architecture](./transformer-architecture.md)
 - [Tools](./tools.md)

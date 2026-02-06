@@ -1,3 +1,10 @@
 {
-  "cSpell.words": ["backpropagation", "chatbots", "evals", "Pretraining"]
+  "cSpell.words": [
+    "backpropagation",
+    "chatbots",
+    "evals",
+    "Pretraining",
+    "subword",
+    "unigram"
+  ]
 }

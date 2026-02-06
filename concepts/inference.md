@@ -1,6 +1,8 @@
 # Inference
 
-Inference is running a trained [model](./model.md) on inputs to produce outputs (for example generating tokens from a prompt), without updating the model's weights.
+Inference is running a trained [model](./model.md) on inputs to produce outputs (for example generating [tokens](./token.md) from a prompt), without updating the model's weights.
+
+In typical text generation, the input text is converted to tokens by a [tokenizer](./tokenizer.md), the model produces a distribution over possible next tokens, and generated tokens are decoded back into text.
 
 In production, inference is commonly provided via an API by an [inference provider](./inference-provider.md) or run on self-hosted infrastructure; it is distinct from [training](./training.md), which changes the model to alter behavior (for example via [fine-tuning](./fine-tuning.md)).
 

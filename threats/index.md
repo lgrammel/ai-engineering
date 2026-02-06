@@ -2,6 +2,7 @@
 
 - [Agent Communication Poisoning](./agent-communication-poisoning.md)
 - [Cascading Hallucination Attacks](./cascading-hallucination-attacks.md)
+- [Exfiltration](./exfiltration.md)
 - [Human Attacks on Multi-Agent Systems](./human-attacks-on-multi-agent-systems.md)
 - [Human Manipulation](./human-manipulation.md)
 - [Identity Spoofing & Impersonation](./identity-spoofing-and-impersonation.md)
@@ -10,8 +11,9 @@
 - [Misaligned & Deceptive Behaviors](./misaligned-and-deceptive-behaviors.md)
 - [Overwhelming Human in the Loop](./overwhelming-human-in-the-loop.md)
 - [Privilege Compromise](./privilege-compromise.md)
-- [Resource Overload](./resource-overload.md)
+- [Prompt Injection](./prompt-injection.md)
 - [Repudiation & Untraceability](./repudiation-and-untraceability.md)
+- [Resource Overload](./resource-overload.md)
 - [Rogue Agents in Multi-Agent Systems](./rogue-agents-in-multi-agent-systems.md)
 - [Tool Misuse](./tool-misuse.md)
 - [Unexpected RCE and Code Attacks](./unexpected-rce-and-code-attacks.md)

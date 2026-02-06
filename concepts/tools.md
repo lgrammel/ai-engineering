@@ -12,6 +12,8 @@ All three types rely on tool-calling ability learned during [training](./trainin
 
 During [inference](./inference.md), function tool schemas are included in the request (consuming [context](./context-size.md)); the model generates calls, and an [agent runtime](./agent-runtime.md) or client orchestrates execution and result passing. Provider-defined tools follow a similar call-and-return loop but use the provider's standardized schemas rather than developer-defined ones. Provider-executed tools run within the provider's infrastructure, so tool results are incorporated without a round-trip to the developer's code.
 
+Because tools bridge the gap between model outputs and real-world actions, they are a primary attack surface for threats such as [tool misuse](../threats/tool-misuse.md) (authorized but harmful tool calls), [unexpected RCE and code attacks](../threats/unexpected-rce-and-code-attacks.md) (code injection through execution tools), and [exfiltration](../threats/exfiltration.md) (data extraction via tool calls).
+
 ## Examples
 
 - Function tools: a developer-defined `get_weather(city)` or `query_database(sql)` tool

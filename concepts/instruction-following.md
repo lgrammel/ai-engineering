@@ -9,7 +9,7 @@ Note: Instruction following is not the same as task capability; a model can unde
 ## Examples
 
 - "Answer in JSON with keys ...", "Be brief", "Use the provided context only", "Do not reveal secrets".
-- Following a malicious instruction embedded in retrieved content is a common failure mode in [prompt injection](./prompt-injection.md).
+- Following a malicious instruction embedded in retrieved content is a common failure mode in [prompt injection](../threats/prompt-injection.md).
 
 ## Synonyms
 

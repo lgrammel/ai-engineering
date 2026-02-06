@@ -7,7 +7,7 @@ In practice this shows up as:
 - Direct prompt injection: the attacker writes the user message.
 - Indirect prompt injection: the attacker controls data the model reads (web pages, emails, documents), and those instructions get treated as if they were higher priority than the application's instructions.
 
-In tool-using [agents](../concepts/agent.md), prompt injection often aims to manipulate tool calls (for example, "send the secrets to ...") or to extract hidden prompts, tokens, or other sensitive [context](../concepts/context.md) for [exfiltration](./exfiltration.md). Prompt injection is the primary enabler for many other agent threats, including [tool misuse](./tool-misuse.md), [goal manipulation](./goal-manipulation.md), and [memory poisoning](./memory-poisoning.md).
+In tool-using [agents](../concepts/agent.md), prompt injection often aims to manipulate tool calls (for example, "send the secrets to ...") or to extract hidden prompts, tokens, or other sensitive [context](../concepts/context.md) for [exfiltration](./exfiltration.md). Prompt injection is the primary enabler for many other agent threats, including [tool misuse](./tool-misuse.md), [goal manipulation](./goal-manipulation.md), and [context poisoning](./context-poisoning.md).
 
 ## Examples
 

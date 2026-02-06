@@ -11,7 +11,7 @@ This repository is a lightweight knowledge workspace about AI systems built on t
 ## What you'll find here
 
 - **`concepts/`**: bite-sized markdown notes defining core terms (e.g. [LLMs](./concepts/llm.md), evals, fine-tuning, inference providers, observability/telemetry).
-- **`threats/`**: bite-sized markdown notes describing threats to AI agent systems (e.g. memory poisoning, tool misuse, privilege compromise).
+- **`threats/`**: bite-sized markdown notes describing threats to AI agent systems (e.g. context poisoning, tool misuse, privilege compromise).
 - **Occasional artifacts**: as the repo grows, it may also include small scripts, JSON, or other files that support the notes (examples, snippets, checklists, etc.).
 
 ## How to use it

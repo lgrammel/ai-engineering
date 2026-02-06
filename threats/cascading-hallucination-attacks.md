@@ -4,7 +4,7 @@ Cascading Hallucination Attacks exploit an AI's tendency to generate contextuall
 
 Unlike isolated hallucinations, cascading attacks are dangerous because each false output becomes trusted input for the next step. In [agent](../concepts/agent.md) systems, a hallucinated fact can feed into [tool](../concepts/tools.md) calls (for example, querying a database with a fabricated identifier or calling an API with incorrect parameters), and the resulting errors or misleading outputs reinforce the original falsehood. In multi-agent systems, one agent's hallucinated output can be accepted as fact by other agents, amplifying the error across the entire workflow.
 
-Attackers can deliberately trigger cascading hallucinations by crafting inputs that push the model toward plausible-sounding but false [reasoning](../concepts/reasoning.md) chains, especially when combined with [prompt injection](./prompt-injection.md) or [memory poisoning](./memory-poisoning.md).
+Attackers can deliberately trigger cascading hallucinations by crafting inputs that push the model toward plausible-sounding but false [reasoning](../concepts/reasoning.md) chains, especially when combined with [prompt injection](./prompt-injection.md) or [context poisoning](./context-poisoning.md).
 
 ## Examples
 

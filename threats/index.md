@@ -2,7 +2,6 @@
 
 - [Approval Fatigue Exploitation](./approval-fatigue-exploitation.md)
 - [Belief Manipulation](./belief-manipulation.md)
-- [Cascading Hallucination Attacks](./cascading-hallucination-attacks.md)
 - [Context Poisoning](./context-poisoning.md)
 - [Exfiltration](./exfiltration.md)
 - [Goal Manipulation](./goal-manipulation.md)

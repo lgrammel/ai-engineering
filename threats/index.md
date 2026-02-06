@@ -10,5 +10,5 @@
 - [Resource Overload](./resource-overload.md)
 - [Tool Approval Fatigue Exploitation](./tool-approval-fatigue-exploitation.md)
 - [Tool Misuse](./tool-misuse.md)
-- [Unexpected RCE and Code Attacks](./unexpected-rce-and-code-attacks.md)
+- [Unauthorized Code Execution](./unauthorized-code-execution.md)
 - [User Manipulation](./user-manipulation.md)

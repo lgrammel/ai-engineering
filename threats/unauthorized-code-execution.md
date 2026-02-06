@@ -1,6 +1,6 @@
-# Unexpected RCE and Code Attacks
+# Unauthorized Code Execution
 
-Unexpected RCE and Code Attacks occur when attackers exploit AI-generated or AI-managed execution environments to inject malicious code, trigger unintended system behaviors, or execute unauthorized scripts outside the intended [sandbox](../concepts/sandbox.md) boundaries.
+Unauthorized Code Execution occurs when attackers exploit AI-generated or AI-managed execution environments to inject malicious code, trigger unintended system behaviors, or execute unauthorized scripts outside the intended [sandbox](../concepts/sandbox.md) boundaries.
 
 These attacks target the code generation and execution capabilities of [agents](../concepts/agent.md), rather than their authorized [tool](../concepts/tools.md) use (which falls under [tool misuse](./tool-misuse.md)). Common vectors include injecting shell commands or scripts through crafted inputs that the agent executes via code interpreter tools, exploiting template rendering or serialization to achieve code execution, and escaping [sandbox](../concepts/sandbox.md) restrictions to reach the host system.
 

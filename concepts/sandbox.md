@@ -4,7 +4,7 @@ An isolated execution environment for running code (often model-generated or use
 
 In [agent](./agent.md) systems, a sandbox is where "tools" run (shell commands, code interpreters, file edits) so the agent can operate on a workspace (often as a [workspace agent](./workspace-agent.md)) without giving it full host privileges.
 
-Typical controls: per-sandbox filesystem (ephemeral or mounted workspace), read/write allowlists, network egress rules, CPU/memory/time limits, process isolation, and audit logs. These controls are a key mitigation for [unexpected RCE and code attacks](../threats/unexpected-rce-and-code-attacks.md) and help limit the blast radius of [tool misuse](../threats/tool-misuse.md).
+Typical controls: per-sandbox filesystem (ephemeral or mounted workspace), read/write allowlists, network egress rules, CPU/memory/time limits, process isolation, and audit logs. These controls are a key mitigation for [unauthorized code execution](../threats/unauthorized-code-execution.md) and help limit the blast radius of [tool misuse](../threats/tool-misuse.md).
 
 ## Examples
 

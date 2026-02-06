@@ -17,6 +17,7 @@
 - [LLM](./llm.md)
 - [Model Developer (Model Creator)](./model-developer.md)
 - [Observability](./observability.md)
+- [Post-training](./post-training.md)
 - [Pretraining](./pretraining.md)
 - [Prompt](./prompt.md)
 - [Prompt Injection](./prompt-injection.md)

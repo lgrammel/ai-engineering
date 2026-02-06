@@ -17,6 +17,7 @@ In tool-using [agents](../concepts/agent.md), prompt injection often aims to man
 ## Mitigations
 
 - Treating retrieved content as untrusted data
+- Input [guardrails](../concepts/guardrail.md) that detect and block injection attempts before they reach the model
 - Minimizing [tool](../concepts/tools.md) permissions
 - [Sandboxing](../concepts/sandbox.md) tool execution environments
 - [Tool execution approval](../concepts/tool-execution-approval.md) for high-risk actions

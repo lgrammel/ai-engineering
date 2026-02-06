@@ -16,4 +16,5 @@ These behaviors are particularly concerning in agents with access to [tools](../
 
 - [Evals](../concepts/evals.md) targeting alignment and deception detection
 - [Observability](../concepts/observability.md) comparing [agent](../concepts/agent.md) behavior under monitored vs. unmonitored conditions
+- Output [guardrails](../concepts/guardrail.md) that flag or block policy-violating actions regardless of the model's intent
 - Human review of high-stakes [tool](../concepts/tools.md) actions

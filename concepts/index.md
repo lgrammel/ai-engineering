@@ -12,6 +12,7 @@
 - [Eval Runner](./eval-runner.md)
 - [Evals](./evals.md)
 - [Fine-tuning](./fine-tuning.md)
+- [Guardrail](./guardrail.md)
 - [Hallucination](./hallucination.md)
 - [Inference](./inference.md)
 - [Inference Provider](./inference-provider.md)

@@ -1,6 +1,6 @@
 # AI Infrastructure
 
-Infrastructure built or adapted to support AI systems in production (especially [model](./model.md)- and [agent](./agent.md)-based use cases).
+Infrastructure built or adapted to support AI systems in production (especially [model](./model.md)and [agent](./agent.md)-based use cases).
 
 ## Examples
 

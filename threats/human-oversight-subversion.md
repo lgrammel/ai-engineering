@@ -7,7 +7,7 @@ This threat has two main forms:
 - **Belief manipulation**: Exploiting the trust relationship between user and agent to spread misinformation, social-engineer the user into revealing sensitive information, or persuade the user to take harmful actions. Users tend to treat agent responses as authoritative, especially when the agent has demonstrated competence or has access to [tools](../concepts/tools.md) and data the user cannot easily verify.
 - **Approval fatigue**: Undermining [tool execution approval](../concepts/tool-execution-approval.md) mechanisms by flooding the reviewer with high volumes of requests, increasing the complexity of requests so the reviewer rubber-stamps them, mixing legitimate and malicious actions, or creating artificial time pressure.
 
-Both forms can be triggered by an attacker who gains influence over the agent (for example through [prompt injection](./prompt-injection.md) or [intent breaking](./intent-breaking-and-goal-manipulation.md)), turning a nominally human-supervised system into an effectively unsupervised one.
+Both forms can be triggered by an attacker who gains influence over the agent (for example through [prompt injection](./prompt-injection.md) or [goal manipulation](./goal-manipulation.md)), turning a nominally human-supervised system into an effectively unsupervised one.
 
 ## Examples
 

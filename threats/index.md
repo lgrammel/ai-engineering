@@ -2,8 +2,8 @@
 
 - [Cascading Hallucination Attacks](./cascading-hallucination-attacks.md)
 - [Exfiltration](./exfiltration.md)
+- [Goal Manipulation](./goal-manipulation.md)
 - [Human Oversight Subversion](./human-oversight-subversion.md)
-- [Intent Breaking & Goal Manipulation](./intent-breaking-and-goal-manipulation.md)
 - [Memory Poisoning](./memory-poisoning.md)
 - [Misaligned & Deceptive Behaviors](./misaligned-and-deceptive-behaviors.md)
 - [Multi-Agent System Threats](./multi-agent-system-threats.md)

@@ -19,7 +19,18 @@ This repository is a lightweight knowledge base of my notes on **AI** and **secu
 
 ## Writing concept notes
 
-Concept notes live in `concepts/` and define core terms for reference across the repo. Keep them **short** (one screen when possible), **definition-first**, and **linked** to related concepts.
+Concept notes live in `concepts/` and define core terms for reference across the repo. Keep them **concise** but also **complete**, **definition-first**, and **linked** to related concepts.
+
+### "Concise but complete"
+
+A note is "complete" when a reader can understand the term without guessing key scope details.
+
+In practice, a good note typically covers (in very few words):
+
+- What it is (the core definition).
+- What it applies to / where it shows up (scope).
+- Key boundary or distinction (what it's not, or what is commonly confused with it).
+- If relevant, the most important moving parts or variants (kept minimal, often as examples).
 
 ### Naming
 
@@ -55,6 +66,10 @@ synonym1, synonym2.
 
 - Title (`# Term Name`)
 - Definition (1-2 sentences immediately after title)
+
+**Optional sections:**
+
+- `## Examples`, `## Synonyms`, and `## External references` are optional and should only be included when they add significant value (clarify meaning, disambiguate terminology, or provide a necessary citation you actually used).
 
 **Main section rule (descriptive-only):**
 

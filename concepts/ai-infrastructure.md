@@ -1,6 +1,6 @@
 # AI Infrastructure
 
-Infrastructure built or adapted to support AI systems in production (especially [LLM](./large-language-model.md)- and [agent](./ai-agent.md)-based use cases).
+Infrastructure built or adapted to support AI systems in production (especially [LLM](./large-language-model.md)- and [agent](./agent.md)-based use cases).
 
 ## Examples
 
@@ -10,4 +10,4 @@ Infrastructure built or adapted to support AI systems in production (especially 
 - AI search/RAG infrastructure
 - [Eval runners](./evaluations-evals.md)
 - [Sandboxes](./sandbox.md) (local or as-a-service)
-- Durable [agent](./ai-agent.md) execution
+- Durable [agent](./agent.md) execution

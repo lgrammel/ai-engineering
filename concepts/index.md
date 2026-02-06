@@ -1,6 +1,6 @@
 # Concepts
 
-- [AI Agent](./ai-agent.md)
+- [Agent](./agent.md)
 - [AI Gateway](./ai-gateway.md)
 - [AI Infrastructure](./ai-infrastructure.md)
 - [Chatbot](./chatbot.md)

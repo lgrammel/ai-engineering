@@ -5,7 +5,7 @@
 - [Goal Manipulation](./goal-manipulation.md)
 - [Guardrail Bypass](./guardrail-bypass.md)
 - [Hallucination Exploitation](./hallucination-exploitation.md)
-- [Misaligned Behaviors](./misaligned-behaviors.md)
+- [Misaligned Model Behaviors](./misaligned-model-behaviors.md)
 - [Multi-Agent System Threats](./multi-agent-system-threats.md)
 - [Persistence Attacks](./persistence-attacks.md)
 - [Privilege Compromise](./privilege-compromise.md)

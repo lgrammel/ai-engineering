@@ -67,13 +67,13 @@ synonym1, synonym2.
 - `Note:` -- clarifications
 - `## Examples` -- concrete instances
 - `## Synonyms` -- synonyms for the term, placed after `## Examples` (if present) and before `## External references`. Do not include links here; use plain text only.
-- `## External references` -- external sources/links only (URLs outside this repo), placed at the bottom of the note
+- `## External references` -- external sources/links only (URLs outside this repo), placed at the bottom of the note. Only include a reference if you actually fetched/opened and used it while writing the concept note.
 
 Do not include `Why it matters:` sections in concept notes. If production relevance is important, incorporate it briefly into the definition or the additional context instead.
 
 Do not include `See also:` sections in concept notes.
 
-Only include links when they materially help define or clarify the concept (i.e., the concept is referenced in the definition, a note, or the additional context). Do not add generic link lists (for example, a standalone "Related concepts:" sentence).
+Only include links when they materially help define or clarify the concept (i.e., the source is actually used in the definition, a note, or the additional context) and the reference is strictly necessary. Do not include unverified references, and do not add generic link lists (for example, a standalone "Related concepts:" sentence).
 
 ### Linking and avoiding duplication
 

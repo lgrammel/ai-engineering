@@ -4,7 +4,7 @@ Tool Misuse occurs when attackers manipulate AI [agents](../concepts/agent.md) i
 
 The key characteristic of tool misuse is that the agent uses tools it is legitimately allowed to use, but applies them in unintended or harmful ways. This distinguishes it from [privilege compromise](./privilege-compromise.md) (where the attacker gains unauthorized permissions) and from [unexpected RCE and code attacks](./unexpected-rce-and-code-attacks.md) (where the attacker exploits code execution vulnerabilities). Tool misuse is commonly enabled by [prompt injection](./prompt-injection.md).
 
-A specific variant is Agent Hijacking, where an agent ingests adversarially manipulated data (for example, a poisoned document or crafted API response) and subsequently executes unintended tool calls, also discussed under [intent breaking & goal manipulation](./intent-breaking-and-goal-manipulation.md) from the goal-redirection perspective.
+When tool misuse involves the agent pursuing entirely new objectives (rather than just misapplying a single tool), it overlaps with [intent breaking & goal manipulation](./intent-breaking-and-goal-manipulation.md).
 
 ## Examples
 
@@ -14,7 +14,7 @@ A specific variant is Agent Hijacking, where an agent ingests adversarially mani
 
 ## Mitigations
 
-- [Tool execution approval](../concepts/tool-execution-approval.md) for high-risk actions (effectiveness can be degraded by [overwhelming human in the loop](./overwhelming-human-in-the-loop.md) attacks)
+- [Tool execution approval](../concepts/tool-execution-approval.md) for high-risk actions (effectiveness can be degraded by [human oversight subversion](./human-oversight-subversion.md))
 - Least-privilege [tool](../concepts/tools.md) permissions
 - [Sandboxing](../concepts/sandbox.md) tool execution environments
 - Input validation on tool arguments

@@ -4,7 +4,7 @@ Tool execution approval is a safety mechanism in [agent](./agent.md) systems whe
 
 Approval gates are typically configured by risk level: low-risk or read-only tool calls (e.g., file reads, searches) may proceed automatically, while high-risk actions (e.g., file deletions, code execution, external API calls, financial transactions) are paused and presented to a human reviewer. The reviewer can approve, reject, or modify the proposed action before execution continues.
 
-Tool execution approval is a primary defense against [tool misuse](../threats/tool-misuse.md) and [prompt injection](../threats/prompt-injection.md)-driven attacks, because it gives a human the opportunity to catch harmful tool calls before they take effect. However, it reduces agent autonomy and throughput, and its effectiveness degrades under [overwhelming human in the loop](../threats/overwhelming-human-in-the-loop.md) attacks that exploit reviewer fatigue or cognitive overload.
+Tool execution approval is a primary defense against [tool misuse](../threats/tool-misuse.md) and [prompt injection](../threats/prompt-injection.md)-driven attacks, because it gives a human the opportunity to catch harmful tool calls before they take effect. However, it reduces agent autonomy and throughput, and its effectiveness degrades under [human oversight subversion](../threats/human-oversight-subversion.md) attacks that exploit reviewer fatigue or cognitive overload.
 
 ## Examples
 

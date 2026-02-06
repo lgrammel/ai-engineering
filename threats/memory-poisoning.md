@@ -4,7 +4,7 @@ Memory Poisoning involves exploiting an AI [agent's](../concepts/agent.md) memor
 
 Because agents treat their own memory as trusted [context](../concepts/context.md), poisoned entries can persist across sessions and influence [reasoning](../concepts/reasoning.md), [tool](../concepts/tools.md) invocations, and outputs long after the initial injection. Short-term poisoning typically targets the current conversation (for example, injecting hidden instructions into earlier turns), while long-term poisoning targets persisted stores that the agent retrieves from repeatedly.
 
-Memory poisoning differs from [agent communication poisoning](./agent-communication-poisoning.md) in that it targets the agent's own stored state rather than the communication channel between agents. It is often enabled by [prompt injection](./prompt-injection.md) embedded in data the agent processes and then saves.
+Memory poisoning targets the agent's own stored state, as opposed to inter-agent communication channels (see [multi-agent system threats](./multi-agent-system-threats.md)). It is often enabled by [prompt injection](./prompt-injection.md) embedded in data the agent processes and then saves.
 
 ## Examples
 

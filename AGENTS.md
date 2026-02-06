@@ -34,8 +34,6 @@ Every concept note follows this shape:
 ```markdown
 # Term Name
 
-Synonyms: synonym1, synonym2.
-
 A 1-2 sentence definition of what the term means.
 
 Optional additional context: typical behaviors, scope, or how it works in practice.
@@ -43,6 +41,10 @@ Optional additional context: typical behaviors, scope, or how it works in practi
 ## Examples
 
 - Concrete examples if helpful.
+
+## Synonyms
+
+synonym1, synonym2.
 
 ## External references
 
@@ -52,14 +54,14 @@ Optional additional context: typical behaviors, scope, or how it works in practi
 **Required elements:**
 
 - Title (`# Term Name`)
-- Definition (1-2 sentences immediately after title or "Synonyms")
+- Definition (1-2 sentences immediately after title)
 
 **Optional elements** (use when helpful, in this order):
 
-- `Synonyms:` -- synonyms, placed right after the title. Do not include links here; use plain text only.
 - Additional context paragraphs
 - `Note:` -- clarifications
 - `## Examples` -- concrete instances
+- `## Synonyms` -- synonyms for the term, placed after `## Examples` (if present) and before `## External references`. Do not include links here; use plain text only.
 - `## External references` -- external sources/links only (URLs outside this repo), placed at the bottom of the note
 
 Do not include `Why it matters:` sections in concept notes. If production relevance is important, incorporate it briefly into the definition or the additional context instead.
@@ -70,9 +72,9 @@ Only include links when they materially help define or clarify the concept (i.e.
 
 ### Linking and avoiding duplication
 
-- **One canonical note per idea**. Before creating a new file, check if the concept exists under a synonym; if so, update the existing note and add the synonym under `Synonyms:`.
+- **One canonical note per idea**. Before creating a new file, check if the concept exists under a synonym; if so, update the existing note and add the synonym under `## Synonyms`.
 - **Link, don't duplicate**. If another concept is needed, use a relative link (e.g. `[LLM](./large-language-model.md)`) rather than restating the definition.
-- **Update related notes** when changing a definition/scope--check parent/child concepts and `Synonyms:` for consistency.
+- **Update related notes** when changing a definition/scope--check parent/child concepts and `## Synonyms` for consistency.
 
 ### General conventions
 

@@ -1,7 +1,5 @@
 # Sandbox
 
-Synonyms: execution sandbox, agent sandbox.
-
 An isolated execution environment for running code (often model-generated or user-supplied) with controlled access to the host system: filesystem/workspace, network, secrets, and compute.
 
 In [agent](./ai-agent.md) systems, a sandbox is where "tools" run (shell commands, code interpreters, file edits) so the [agent](./ai-agent.md) can operate on a workspace without giving it full host privileges.
@@ -14,3 +12,7 @@ Typical controls: per-sandbox filesystem (ephemeral or mounted workspace), read/
 - Firecracker microVMs
 - WASM runtimes
 - In-memory language interpreters
+
+## Synonyms
+
+execution sandbox, agent sandbox.

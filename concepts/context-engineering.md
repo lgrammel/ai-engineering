@@ -12,4 +12,4 @@ It includes prompt/template design, retrieval and ranking, summarization and mem
 
 ## Synonyms
 
-prompt engineering, context management
+context management

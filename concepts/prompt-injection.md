@@ -16,7 +16,7 @@ In tool-using [agents](./agent.md), prompt injection often aims to manipulate to
 
 ## Synonyms
 
-jailbreaking, adversarial prompting (overlapping).
+adversarial prompting
 
 ## External references
 

@@ -12,4 +12,4 @@ Exfiltration can be direct (the model prints the data) or indirect (the agent se
 
 ## Synonyms
 
-data exfiltration, data leakage (overlapping), data theft.
+data exfiltration, data leakage, data theft

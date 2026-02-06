@@ -15,4 +15,4 @@ Typical controls: per-sandbox filesystem (ephemeral or mounted workspace), read/
 
 ## Synonyms
 
-execution sandbox, agent sandbox.
+execution sandbox, agent sandbox

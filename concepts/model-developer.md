@@ -4,6 +4,14 @@ An organization that develops model weights via [pretraining](./pretraining.md) 
 
 Model developers may distribute models directly (for example, releasing weights) and/or partner with an [inference provider](./inference-provider.md) to serve them via API.
 
+## Examples
+
+- OpenAI
+- Anthropic
+- Google DeepMind
+- Meta
+- Mistral
+
 ## Synonyms
 
 model creator

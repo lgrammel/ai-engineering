@@ -13,4 +13,4 @@ Note: Instruction following is not the same as task capability; a model can unde
 
 ## Synonyms
 
-instruction adherence, instruction compliance (overlapping).
+instruction adherence, instruction compliance

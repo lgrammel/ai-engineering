@@ -12,4 +12,4 @@ Agent runtimes often handle orchestration concerns such as tool routing, retries
 
 ## Synonyms
 
-agent runner, agent orchestrator, agent engine.
+agent runner, agent orchestrator, agent engine

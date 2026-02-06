@@ -11,4 +11,4 @@ Typically provides request routing (model selection, fallbacks), unified auth an
 
 ## Synonyms
 
-model gateway, LLM gateway.
+model gateway, LLM gateway

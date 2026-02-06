@@ -9,7 +9,6 @@
 - [Multi-Agent System Threats](./multi-agent-system-threats.md)
 - [Privilege Compromise](./privilege-compromise.md)
 - [Prompt Injection](./prompt-injection.md)
-- [Repudiation & Untraceability](./repudiation-and-untraceability.md)
 - [Resource Overload](./resource-overload.md)
 - [Tool Misuse](./tool-misuse.md)
 - [Unexpected RCE and Code Attacks](./unexpected-rce-and-code-attacks.md)

@@ -78,7 +78,7 @@ Only include links when they materially help define or clarify the concept (i.e.
 ### Linking and avoiding duplication
 
 - **One canonical note per idea**. Before creating a new file, check if the concept exists under a synonym; if so, update the existing note and add the synonym under `## Synonyms`.
-- **Link, don't duplicate**. If another concept is needed, use a relative link (e.g. `[LLM](./large-language-model.md)`) rather than restating the definition.
+- **Link, don't duplicate**. If another concept is needed, use a relative link (e.g. `[model](./model.md)`) rather than restating the definition.
 - **Update related notes** when changing a definition/scope--check parent/child concepts and `## Synonyms` for consistency.
 
 ### General conventions

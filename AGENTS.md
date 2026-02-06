@@ -9,7 +9,7 @@ This repository is a lightweight knowledge workspace about AI systems built on t
 
 ## What you'll find here
 
-- **`concepts/`**: bite-sized markdown notes defining core terms (e.g. LLMs, evals, fine-tuning, inference providers, observability/telemetry).
+- **`concepts/`**: bite-sized markdown notes defining core terms (e.g. [LLMs](./concepts/llm.md), evals, fine-tuning, inference providers, observability/telemetry).
 - **Occasional artifacts**: as the repo grows, it may also include small scripts, JSON, or other files that support the notes (examples, snippets, checklists, etc.).
 
 ## How to use it
@@ -93,7 +93,7 @@ Only include links when they materially help define or clarify the concept (i.e.
 ### Linking and avoiding duplication
 
 - **One canonical note per idea**. Before creating a new file, check if the concept exists under a synonym; if so, update the existing note and add the synonym under `## Synonyms`.
-- **Link, don't duplicate**. If another concept is needed, use a relative link (e.g. `[model](./model.md)`) rather than restating the definition.
+- **Link, don't duplicate**. If another concept is needed, use a relative link (e.g. `[LLM](./concepts/llm.md)`) rather than restating the definition.
 - **Update related notes** when changing a definition/scope--check parent/child concepts and `## Synonyms` for consistency.
 
 ### General conventions

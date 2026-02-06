@@ -11,7 +11,7 @@
 - [Fine-tuning](./fine-tuning.md)
 - [Inference](./inference.md)
 - [Inference Provider](./inference-provider.md)
-- [Model](./model.md)
+- [LLM](./llm.md)
 - [Model Developer (Model Creator)](./model-developer.md)
 - [Observability Tools](./observability-tools.md)
 - [Pretraining](./pretraining.md)

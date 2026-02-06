@@ -1,6 +1,6 @@
 # Prompt Injection
 
-Prompt injection is an attack where untrusted input is crafted to override or redirect an LLM application's intended instructions (for example, its system/developer [prompt](./prompt.md)), causing unsafe behavior such as [exfiltration](./exfiltration.md) or unauthorized tool use.
+Prompt injection is an attack where untrusted input is crafted to override or redirect an [LLM](./llm.md) application's intended instructions (for example, its system/developer [prompt](./prompt.md)), causing unsafe behavior such as [exfiltration](./exfiltration.md) or unauthorized tool use.
 
 In practice this shows up as:
 

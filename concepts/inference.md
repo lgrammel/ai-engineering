@@ -1,6 +1,6 @@
 # Inference
 
-Inference is running a trained [model](./model.md) on inputs to produce outputs (for example generating [tokens](./token.md) from a prompt), without updating the model's weights.
+Inference is running a trained [LLM](./llm.md) on inputs to produce outputs (for example generating [tokens](./token.md) from a prompt), without updating the LLM's weights.
 
 In typical text generation, the input text is converted to tokens by a [tokenizer](./tokenizer.md), the model produces a distribution over possible next tokens, and generated tokens are decoded back into text.
 
@@ -9,7 +9,7 @@ In production, inference is commonly provided via an API by an [inference provid
 ## Examples
 
 - Calling a chat completion API to generate an answer from a prompt
-- Running a local model to generate text for an [agent](./agent.md)
+- Running a local [LLM](./llm.md) to generate text for an [agent](./agent.md)
 
 ## Synonyms
 

@@ -1,6 +1,6 @@
 # Context
 
-Context is the set of information an LLM application provides alongside a request (instructions, conversation history, retrieved documents, tool outputs, metadata) that the model can use to produce an answer.
+Context is the set of information a [LLM](./llm.md) application provides alongside a request (instructions, conversation history, retrieved documents, tool outputs, metadata) that the model can use to produce an answer.
 
 ## Examples
 

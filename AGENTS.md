@@ -132,6 +132,17 @@ Idea notes live in `ideas/` and capture speculative, emerging, or opinion-driven
 - Keep `ideas/index.md` sorted alphabetically by the visible idea name.
 - Do not duplicate concept definitions; link to the canonical concept note instead.
 
+### Prose style
+
+Idea notes should be **concise and non-redundant**. Every sentence must add new information.
+
+- **No origin stories or etymology.** Don't explain where a term or metaphor comes from (e.g., "borrowed from urban planning", "the term originates in..."). Just use the term directly.
+- **No inline attribution.** Don't name specific people or frame ideas with "In X's view..." -- the `## External references` section handles sourcing.
+- **No redundant restatements.** If the definition already says it, don't rephrase it in the next paragraph. Each paragraph should advance the idea, not echo the previous one.
+- **Compress repeated patterns.** When multiple items make the same structural point (e.g., "if agents don't know X, X loses"), merge them into one tighter statement with inline examples rather than listing each separately.
+- **No filler analogies.** Don't pad with comparisons to unrelated domains (e.g., "similar to the algorithmic attention economy in human-facing platforms") unless the analogy is essential to understanding.
+- **Keep examples distinct.** Each example under `## Examples` should illustrate a different facet of the idea, not repeat the same point with different nouns.
+
 ## Tools
 
 Pre-commit hooks run automatically on staged files. Run `pnpm install` to set up.

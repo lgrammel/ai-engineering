@@ -6,6 +6,7 @@
 - [AI Gateway](./ai-gateway.md)
 - [AI Infrastructure](./ai-infrastructure.md)
 - [Chatbot](./chatbot.md)
+- [Code Execution Tool](./code-execution-tool.md)
 - [Coding Agent](./coding-agent.md)
 - [Context](./context.md)
 - [Context Engineering](./context-engineering.md)

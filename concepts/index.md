@@ -2,6 +2,7 @@
 
 - [Agent](./agent.md)
 - [Agent Runtime](./agent-runtime.md)
+- [Agentic Workloads](./agentic-workloads.md)
 - [AI Gateway](./ai-gateway.md)
 - [AI Infrastructure](./ai-infrastructure.md)
 - [Chatbot](./chatbot.md)

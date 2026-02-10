@@ -43,6 +43,7 @@
 - [MCP](./mcp.md)
 - [Model Developer (Model Creator)](./model-developer.md)
 - [Model Quantization](./model-quantization.md)
+- [Model Routing](./model-routing.md)
 - [Multi-Agent System](./multi-agent-system.md)
 - [Observability](./observability.md)
 - [Post-training](./post-training.md)

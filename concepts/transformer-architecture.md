@@ -7,7 +7,7 @@ In [LLM](./llm.md) systems, "transformer" usually refers to stacked attention an
 ## Examples
 
 - GPT-style decoder-only transformers for text generation.
-- BERT-style encoder-only transformers for embeddings and classification.
+- BERT-style encoder-only transformers for [embeddings](./embedding.md) and classification.
 - T5-style encoder-decoder transformers for translation or summarization.
 
 ## Synonyms

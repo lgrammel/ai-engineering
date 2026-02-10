@@ -19,6 +19,7 @@
 - [Distillation](./distillation.md)
 - [Eval Runner](./eval-runner.md)
 - [Evals](./evals.md)
+- [Embedding](./embedding.md)
 - [Embedding Model](./embedding-model.md)
 - [Fine-tuning](./fine-tuning.md)
 - [Grounding](./grounding.md)

@@ -1,6 +1,6 @@
 # Chunking
 
-Chunking is the process of splitting documents or other content into smaller segments (chunks) so they can be individually embedded, indexed, and retrieved in a [RAG](./rag.md) pipeline.
+Chunking is the process of splitting documents or other content into smaller segments (chunks) so they can be individually converted to [embeddings](./embedding.md), indexed, and retrieved in a [RAG](./rag.md) pipeline.
 
 [Embedding models](./embedding-model.md) have input length limits, and retrieval quality depends on each indexed unit carrying focused, coherent information. Chunking bridges the gap between arbitrarily long source documents and the fixed-size vectors stored in a [vector database](./vector-database.md). Chunk size also affects generation: chunks included in the [context](./context.md) at [inference](./inference.md) time consume [tokens](./token.md) and must fit within the model's [context size](./context-size.md).
 

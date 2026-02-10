@@ -1,6 +1,8 @@
 # Concepts
 
 - [Agent](./agent.md)
+- [Agent Checkpointing](./agent-checkpointing.md)
+- [Agent Hosting Platform](./agent-hosting-platform.md)
 - [Agent Memory](./agent-memory.md)
 - [Agent Runtime](./agent-runtime.md)
 - [Agentic Workloads](./agentic-workloads.md)

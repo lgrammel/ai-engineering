@@ -12,4 +12,4 @@ Compared to general-purpose infrastructure, AI infrastructure addresses concerns
 - AI search/RAG infrastructure
 - [Eval runners](./eval-runner.md)
 - [Sandboxes](./sandbox.md) (local or as-a-service)
-- Durable [agent](./agent.md) execution
+- [Agent hosting platforms](./agent-hosting-platform.md)

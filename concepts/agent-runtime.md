@@ -8,7 +8,7 @@ The runtime is the infrastructure and orchestration layer, distinct from the [ag
 
 - A local agent runner embedded in an IDE that can edit files and run shell commands (a [workspace agent](./workspace-agent.md)).
 - A hosted service that executes agent workflows and manages tool credentials and rate limits.
-- An agent framework/runtime library that provides a state machine, tool calling, and checkpointing.
+- An agent framework/runtime library that provides a state machine, tool calling, and [checkpointing](./agent-checkpointing.md).
 
 ## Synonyms
 

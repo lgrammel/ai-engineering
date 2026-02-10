@@ -4,7 +4,7 @@ Library evals for model training is the idea that [tool](../concepts/tools.md) a
 
 This is a paid mechanism for reducing the awareness cost described in [Agent SEO](./agent-seo.md). Rather than waiting for organic adoption to generate public training data, vendors create eval suites that show how (and how not) to use their tool, and model developers tune training to score well on these evals -- effectively baking tool familiarity into the model's weights.
 
-This creates a potential asymmetry: well-funded vendors can pay for training influence, while smaller or open-source tools rely on organic data. It also introduces a [supply chain](../threats/supply-chain-compromise.md) consideration -- if model training can be commercially influenced to favor specific tools, the integrity of that influence channel becomes security-relevant.
+This creates a potential asymmetry: well-funded vendors can pay for training influence, while smaller or open-source tools rely on organic data. It also introduces a [supply chain](../threats/supply-chain-attack.md) consideration -- if model training can be commercially influenced to favor specific tools, the integrity of that influence channel becomes security-relevant.
 
 ## Examples
 

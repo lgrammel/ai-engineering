@@ -11,7 +11,7 @@
 - [Privilege Compromise](./privilege-compromise.md)
 - [Prompt Injection](./prompt-injection.md)
 - [Resource Overload](./resource-overload.md)
-- [Supply Chain Compromise](./supply-chain-compromise.md)
+- [Supply Chain Attack](./supply-chain-attack.md)
 - [Tool Approval Fatigue Exploitation](./tool-approval-fatigue-exploitation.md)
 - [Tool Misuse](./tool-misuse.md)
 - [Unauthorized Code Execution](./unauthorized-code-execution.md)

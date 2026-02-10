@@ -9,7 +9,7 @@ The risk is elevated when agents generate and run code dynamically, because the 
 ## Examples
 
 - An attacker crafts input that causes an agent's code interpreter to execute a reverse shell instead of the intended data analysis script.
-- A model generates code that includes a malicious dependency import, which runs arbitrary code when installed (see also [supply chain compromise](./supply-chain-compromise.md)).
+- A model generates code that includes a malicious dependency import, which runs arbitrary code when installed (see also [supply chain attack](./supply-chain-attack.md)).
 - Adversarial input triggers server-side template injection in an agent-generated web page, achieving code execution on the host.
 
 ## Mitigations

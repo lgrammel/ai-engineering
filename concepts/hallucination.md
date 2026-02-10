@@ -9,5 +9,5 @@ In [agent](./agent.md) systems, hallucinations are particularly risky because th
 ## Examples
 
 - A model invents a plausible-looking but nonexistent citation (author, title, journal).
-- An agent hallucinates a package name, installs it via a tool call, and a typosquatted malicious package gets executed (see [supply chain compromise](../threats/supply-chain-compromise.md)).
+- An agent hallucinates a package name, installs it via a tool call, and a typosquatted malicious package gets executed (see [supply chain attack](../threats/supply-chain-attack.md)).
 - One agent in a pipeline produces a fabricated statistic that downstream agents incorporate into reports without verification.

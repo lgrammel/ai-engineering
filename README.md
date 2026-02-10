@@ -1,6 +1,8 @@
 # AI Notes
 
-A knowledge workspace about AI systems built on transformer architecture models.
+A knowledge workspace about AI systems and agents.
+
+The repository contains concept definitions, exploratory ideas and observations, and threats. Notes are designed for quick reference and are cross-linked to form a navigable knowledge graph.
 
 > **Read-only repository**: Pull requests will not be accepted or reviewed.
 

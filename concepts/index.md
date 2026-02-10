@@ -45,6 +45,7 @@
 - [Model Quantization](./model-quantization.md)
 - [Model Routing](./model-routing.md)
 - [Multi-Agent System](./multi-agent-system.md)
+- [Multimodal Model](./multimodal-model.md)
 - [Observability](./observability.md)
 - [Post-training](./post-training.md)
 - [Pretraining](./pretraining.md)

@@ -9,6 +9,7 @@ In [LLM](./llm.md) systems, "transformer" usually refers to stacked attention an
 - GPT-style decoder-only transformers for text generation.
 - BERT-style encoder-only transformers for [embeddings](./embedding.md) and classification.
 - T5-style encoder-decoder transformers for translation or summarization.
+- Vision transformer (ViT) encoders for image representation in [multimodal models](./multimodal-model.md).
 
 ## Synonyms
 

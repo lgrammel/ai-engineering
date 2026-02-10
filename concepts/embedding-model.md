@@ -9,7 +9,7 @@ Embedding models are foundational to [RAG](./rag.md) pipelines, where they power
 ## Examples
 
 - A text embedding model that encodes documents and queries into 1024-dimensional vectors for similarity search in a [RAG](./rag.md) pipeline.
-- A multimodal embedding model that maps both images and text descriptions into a shared vector space for cross-modal retrieval.
+- A [multimodal](./multimodal-model.md) embedding model that maps both images and text descriptions into a shared vector space for cross-modal retrieval.
 - An embedding model fine-tuned on domain-specific data (e.g., legal or medical text) to improve retrieval quality in a specialized application.
 
 ## Synonyms

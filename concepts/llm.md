@@ -1,6 +1,6 @@
 # LLM
 
-An LLM (large language model) is a trained machine-learning model that maps text (and sometimes other modalities) to text by predicting sequences of tokens. Some models also generate non-text outputs (images, audio), but the core LLM mechanism is token prediction over text.
+An LLM (large language model) is a trained machine-learning model that maps text to text by predicting sequences of tokens. When extended to accept or produce additional modalities (images, audio, video), the result is a [multimodal model](./multimodal-model.md); the core LLM mechanism remains token prediction over text.
 
 In this repository, LLMs are assumed to follow the [transformer architecture](./transformer-architecture.md): language models trained to predict the next [token](./token.md) (as defined by a [tokenizer](./tokenizer.md)) on large datasets. After [training](./training.md), an LLM is run during [inference](./inference.md) and is commonly used in [chatbots](./chatbot.md) and [agents](./agent.md). Many deployed LLMs are [instruction following](./instruction-following.md) variants created via [post-training](./post-training.md) such as [fine-tuning](./fine-tuning.md).
 

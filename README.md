@@ -1,6 +1,6 @@
 # AI Notes
 
-A knowledge workspace about AI systems and agents, with a focus on practical applicability: what matters when building and operating agent systems and how real systems behave in production.
+A knowledge workspace about AI engineering in practice: what matters when building, integrating, and operating AI-powered systems, and how they behave in production.
 
 The repository contains concept definitions, exploratory ideas and observations, and threats. Notes are designed for quick reference and are cross-linked to form a navigable knowledge graph.
 

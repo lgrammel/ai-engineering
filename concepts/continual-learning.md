@@ -10,6 +10,8 @@ A key challenge in continual learning is catastrophic forgetting: updating weigh
 
 ## Examples
 
+These examples illustrate the continual learning paradigm; in practice, most production LLMs are still trained in discrete runs rather than updated continuously, due to catastrophic forgetting and infrastructure constraints.
+
 - A deployed model that updates its weights based on user feedback and corrections over weeks of operation
 - An [agent](./agent.md) that accumulates domain expertise through on-the-job experience, becoming increasingly effective in its specific role
 - A model that learns new tool APIs and conventions as they are released, without requiring full retraining

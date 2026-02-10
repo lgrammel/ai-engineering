@@ -18,4 +18,6 @@ In [multi-agent systems](./multi-agent-system.md), context engineering extends t
 
 ## Synonyms
 
-prompt engineering, context management
+context management
+
+Note: prompt engineering is a closely related but narrower practice focused primarily on crafting instructions and examples within a single prompt, whereas context engineering encompasses the full lifecycle of selecting, retrieving, compressing, and structuring all context sources.

@@ -4,7 +4,7 @@ Pretraining is large-scale [training](./training.md) of a model on broad data to
 
 ## Details
 
-Pretraining data is finite, and as available text data approaches exhaustion, the pretraining scaling recipe yields diminishing returns (see [scaling laws](./scaling-laws.md)). Pretraining achieves breadth through sheer data volume rather than deep [generalization](./generalization.md) -- coverage substitutes for robust transfer, which is why models can exhibit broad knowledge while generalizing dramatically worse than humans on novel tasks. The field has shifted significant compute toward [reinforcement learning](./reinforcement-learning.md) and other [post-training](./post-training.md) methods as pretraining alone reaches its limits.
+Pretraining data is finite, and as high-quality text data becomes harder to source at scale, the pretraining scaling recipe yields diminishing returns (see [scaling laws](./scaling-laws.md)). A common view is that pretraining achieves breadth through sheer data volume rather than deep [generalization](./generalization.md) -- coverage partially substitutes for robust transfer, which may explain why models can exhibit broad knowledge while generalizing less reliably than humans on novel tasks. The field has shifted significant compute toward [reinforcement learning](./reinforcement-learning.md) and other [post-training](./post-training.md) methods as returns from pretraining data scaling diminish in some regimes.
 
 Note: Some workflows continue training an existing model on additional broad or domain data using the same pretraining objective ("continued pretraining"), which is often contrasted with fine-tuning even though both update weights.
 

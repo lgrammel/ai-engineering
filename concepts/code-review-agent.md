@@ -4,7 +4,7 @@ An [agent](./agent.md) specialized for automated review of code changes, typical
 
 ## Details
 
-Code review agents become increasingly important as [cloud coding agents](./cloud-coding-agent.md) generate more pull requests in parallel -- the bottleneck shifts from writing code to reviewing it. Automated review helps prevent rubber-stamping or accumulating review debt by catching common issues before a human reviewer sees the change. A code review agent can run on the same cloud infrastructure as the coding agent that produced the change, creating a feedback loop where generated code is automatically screened before human review.
+Code review agents become increasingly important as [cloud coding agents](./cloud-coding-agent.md) generate more pull requests in parallel -- the bottleneck shifts from writing code to reviewing it. Automated review helps prevent rubber-stamping or accumulating review debt by catching common issues before a human reviewer sees the change, serving as a mitigation against [human approval fatigue exploitation](../threats/human-approval-fatigue-exploitation.md). A code review agent can run on the same cloud infrastructure as the coding agent that produced the change, creating a feedback loop where generated code is automatically screened before human review.
 
 ## Examples
 

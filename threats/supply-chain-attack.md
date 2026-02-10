@@ -6,7 +6,7 @@ Agent systems are particularly exposed because they combine multiple external de
 
 Key attack vectors include:
 
-- **Trojanized models**: Backdoored model weights or poisoned [fine-tuning](../concepts/fine-tuning.md) datasets that cause the model to behave maliciously under specific trigger conditions while appearing normal otherwise. This can manifest as [misaligned model behaviors](./misaligned-model-behaviors.md) that are deliberately introduced rather than emergent.
+- **Trojanized models**: Backdoored model weights or poisoned [fine-tuning](../concepts/fine-tuning.md) datasets that cause the model to behave maliciously under specific trigger conditions while appearing normal otherwise. This can manifest as [misaligned model behaviors](./misaligned-model-behaviors.md) that are deliberately introduced rather than emergent. See also [training data poisoning](./training-data-poisoning.md) for attacks that target the training data itself.
 - **Malicious tools**: A compromised tool (for example, a malicious [MCP](../concepts/mcp.md) server) that exfiltrates data, executes unauthorized actions, or alters results when the agent invokes it.
 - **Malicious library packages**: Backdoored or typosquatted packages that get installed when the agent follows build instructions or recommends dependencies.
 - **Malicious skills**: Compromised [skill](../concepts/skill.md) definitions distributed through [skill repositories](../concepts/skill-repository.md) or other channels that inject harmful instructions, override safety behaviors, or exfiltrate data through the agent's normal workflow.

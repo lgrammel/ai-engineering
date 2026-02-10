@@ -14,5 +14,6 @@
 - [Supply Chain Attack](./supply-chain-attack.md)
 - [Tool Approval Fatigue Exploitation](./tool-approval-fatigue-exploitation.md)
 - [Tool Misuse](./tool-misuse.md)
+- [Training Data Poisoning](./training-data-poisoning.md)
 - [Unauthorized Code Execution](./unauthorized-code-execution.md)
 - [User Manipulation](./user-manipulation.md)

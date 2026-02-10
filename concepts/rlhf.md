@@ -12,4 +12,4 @@ The typical RLHF pipeline has three stages: collect human comparisons of model o
 
 ## Synonyms
 
-reinforcement learning from human feedback, RLHF, DPO, direct preference optimization, preference-based alignment
+reinforcement learning from human feedback, preference-based alignment

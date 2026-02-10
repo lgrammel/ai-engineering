@@ -20,3 +20,4 @@ Tools that encode hard-won domain knowledge (e.g., git, databases, workflow engi
 ## External references
 
 - https://steve-yegge.medium.com/software-survival-3-0-97a2a6255f7b
+- https://arxiv.org/abs/2511.17006

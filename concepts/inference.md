@@ -13,4 +13,4 @@ In production, inference is commonly provided via an API by an [inference provid
 
 ## Synonyms
 
-serving, model serving
+serving, model serving (these terms sometimes refer more broadly to the infrastructure of hosting and operating models, not just the forward pass)

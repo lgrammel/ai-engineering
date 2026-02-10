@@ -4,7 +4,7 @@ Red teaming is the practice of systematically probing an AI system with adversar
 
 Red teaming goes beyond standard [evals](./evals.md) by simulating realistic attack scenarios: testers (human or automated) attempt [prompt injection](../threats/prompt-injection.md), [guardrail bypass](../threats/guardrail-bypass.md), [hallucination](./hallucination.md) exploitation, and other [threats](../threats/index.md) to find failure modes that conventional test suites miss. Results feed back into [alignment](./alignment.md) improvements, [guardrail](./guardrail.md) tuning, and targeted eval creation.
 
-Red teaming is most effective as an ongoing process rather than a one-time assessment, because model updates, new tool integrations, and changing threat landscapes can introduce new vulnerabilities.
+In practice, red teaming is an ongoing process rather than a one-time assessment, because model updates, new tool integrations, and changing threat landscapes can introduce new vulnerabilities.
 
 ## Examples
 

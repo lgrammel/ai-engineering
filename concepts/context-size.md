@@ -10,3 +10,7 @@ If the provided [context](./context.md) exceeds the model's context size, someth
 
 - A model with a 128k-token context window can accept longer documents than a 8k-token model.
 - When a chat thread grows too long, older turns may be summarized to fit the window.
+
+## Synonyms
+
+context window, context length

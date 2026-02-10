@@ -2,9 +2,7 @@
 
 RLHF (reinforcement learning from human feedback) is a [post-training](./post-training.md) technique that uses human preference judgments to [fine-tune](./fine-tuning.md) an [LLM](./llm.md), steering it toward outputs that humans rate as more helpful, honest, or safe.
 
-The typical RLHF pipeline has three stages: collect human comparisons of model outputs, train a reward model that predicts human preferences from those comparisons, and optimize the LLM's policy against the reward model using reinforcement learning (commonly PPO). DPO (direct preference optimization) is an alternative that skips the explicit reward model by optimizing directly on preference pairs, simplifying the pipeline while targeting similar [alignment](./alignment.md) goals.
-
-RLHF and its variants are a primary mechanism for establishing [instruction following](./instruction-following.md) behavior and model-level [alignment](./alignment.md). They are typically applied after supervised [fine-tuning](./fine-tuning.md) and before deployment, as part of the broader [post-training](./post-training.md) pipeline.
+The typical RLHF pipeline has three stages: collect human comparisons of model outputs, train a reward model that predicts human preferences from those comparisons, and optimize the LLM's policy against the reward model using reinforcement learning (commonly PPO). DPO (direct preference optimization) is an alternative that skips the explicit reward model by optimizing directly on preference pairs, simplifying the pipeline while targeting similar [alignment](./alignment.md) goals. RLHF and its variants are a primary mechanism for establishing [instruction following](./instruction-following.md) behavior and model-level [alignment](./alignment.md), typically applied after supervised [fine-tuning](./fine-tuning.md) and before deployment.
 
 ## Examples
 

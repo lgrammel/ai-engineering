@@ -4,7 +4,7 @@ Further training of an existing [LLM](./llm.md) on a narrower dataset to change 
 
 Fine-tuning is one form of [post-training](./post-training.md); it changes the LLM's weights so that its behavior during [inference](./inference.md) is different for similar inputs. Preference-based methods (for example RLHF, DPO) are sometimes grouped under fine-tuning and sometimes treated as a separate [post-training](./post-training.md) category; the boundary is context-dependent.
 
-In practice, fine-tuning targets concrete failures measured by [evals](./evals.md), often using training examples sourced or prioritized from production [observability](./observability.md). After fine-tuning, [evals](./evals.md) are often re-run and [observability](./observability.md) are monitored to confirm improvements and catch regressions.
+In practice, fine-tuning targets concrete failures measured by [evals](./evals.md), often using training examples sourced or prioritized from production [observability](./observability.md). After fine-tuning, [evals](./evals.md) are often re-run and [observability](./observability.md) data is monitored to confirm improvements and catch regressions.
 
 ## Examples
 

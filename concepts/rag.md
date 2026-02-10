@@ -1,0 +1,17 @@
+# RAG
+
+RAG (retrieval-augmented generation) is a pattern that enhances [LLM](./llm.md) outputs by retrieving relevant documents or passages from an external source and including them in the model's [context](./context.md) before generation.
+
+Rather than relying solely on knowledge encoded in the model's weights during [training](./training.md), RAG systems query a retrieval backend (vector store, search index, database, or API) at [inference](./inference.md) time and inject the results into the [prompt](./prompt.md). This lets the model ground its answers in up-to-date or domain-specific information without [fine-tuning](./fine-tuning.md). RAG is a core technique in [context engineering](./context-engineering.md): the retrieval, ranking, and formatting of passages directly affects output quality and fits within the model's [context size](./context-size.md).
+
+RAG reduces but does not eliminate [hallucination](./hallucination.md) -- the model can still misinterpret, ignore, or fabricate beyond retrieved content. [Grounding](./grounding.md) strategies (verifying outputs against retrieved sources) help catch remaining errors. Because retrieval sources are part of the model's context, they are also an attack surface for [context poisoning](../threats/context-poisoning.md): an attacker who can inject or modify documents in the retrieval backend can influence model outputs indirectly.
+
+## Examples
+
+- A support chatbot that retrieves relevant help articles before answering a user question.
+- A coding agent that searches a codebase for relevant files and includes them in context before generating a change.
+- A legal research tool that retrieves statute text and case excerpts to ground its analysis.
+
+## Synonyms
+
+retrieval-augmented generation, retrieval augmented generation

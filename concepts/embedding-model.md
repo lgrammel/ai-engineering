@@ -4,7 +4,7 @@ An embedding model maps inputs (text, images, or other modalities) to dense nume
 
 Embedding models are distinct from generative [LLMs](./llm.md): rather than producing text token by token, they produce a fixed-dimensional vector that captures the meaning of the input. They are typically encoder-based models (often derived from the [transformer architecture](./transformer-architecture.md)) [trained](./training.md) or [fine-tuned](./fine-tuning.md) with contrastive or similarity objectives so that related inputs cluster together in the vector space.
 
-Embedding models are foundational to [RAG](./rag.md) pipelines, where they power the retrieval step: documents are embedded and stored in a vector database, and queries are embedded at [inference](./inference.md) time to find the most similar documents via nearest-neighbor search. They are also used for semantic search, classification, clustering, and duplicate detection.
+Embedding models are foundational to [RAG](./rag.md) pipelines, where they power the retrieval step: documents are embedded and stored in a [vector database](./vector-database.md), and queries are embedded at [inference](./inference.md) time to find the most similar documents via nearest-neighbor search. They are also used for semantic search, classification, clustering, and duplicate detection.
 
 ## Examples
 

@@ -9,7 +9,7 @@ Because context is the primary input the model reasons over, it is an attack sur
 ## Examples
 
 - System and developer instructions that define the assistant's role.
-- A chat transcript and a short running summary of prior turns.
+- A chat transcript and a short running summary of prior turns (see [prompt compaction](./prompt-compaction.md)).
 - Retrieved passages ([RAG](./rag.md)) and citations.
 - Tool results (for example, database rows or API responses).
 - PDF files and images.

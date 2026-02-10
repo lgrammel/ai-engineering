@@ -52,6 +52,7 @@
 - [Pretraining](./pretraining.md)
 - [Prompt](./prompt.md)
 - [Prompt Caching](./prompt-caching.md)
+- [Prompt Compaction](./prompt-compaction.md)
 - [RAG](./rag.md)
 - [Reasoning](./reasoning.md)
 - [Red Teaming](./red-teaming.md)

@@ -88,6 +88,8 @@ Concept notes live in `concepts/` and define core terms. Keep them **concise**, 
 
 The main section is **descriptive only**: it explains what the term is, how it behaves, and where it applies. If operational guidance is important, phrase it descriptively or put concrete instances under `## Examples`.
 
+ML engineering concepts (e.g. training, pretraining, reinforcement learning, transformer architecture) may be included as brief reference notes when AI engineering notes link to them. Keep these to an executive summary and minimal `## Details`; deep ML mechanics (training loop internals, architectural variants, optimization algorithms) can be omitted.
+
 ## Idea notes
 
 Idea notes live in `ideas/` and capture speculative, emerging, or opinion-driven ideas from specific external sources. They follow concept note conventions (including the executive summary + optional `## Details` structure) with these additions:

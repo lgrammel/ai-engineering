@@ -8,7 +8,7 @@ Standardized [benchmarks](./benchmarks.md) are a subset of evals designed for re
 
 Eval approaches include automated metrics (exact match, similarity scores), model-as-judge (using an LLM to grade outputs), and human evaluation. Evals can run offline (on curated datasets before deployment) or online (against live traffic in production).
 
-Evals are commonly built from real user traffic and failure cases surfaced by telemetry, and they are often used as release gates when changing [prompts](./prompt.md), tools, [LLMs](./llm.md), or [infrastructure](./ai-infrastructure.md). An [eval runner](./eval-runner.md) is the software component that orchestrates eval execution end-to-end.
+Evals are commonly built from real user traffic and failure cases surfaced by [observability](./observability.md) telemetry, and they are often used as release gates when changing [prompts](./prompt.md), tools, [LLMs](./llm.md), or [infrastructure](./ai-infrastructure.md). An [eval runner](./eval-runner.md) is the software component that orchestrates eval execution end-to-end.
 
 Evals can inadvertently shape [reinforcement learning](./reinforcement-learning.md) training targets when teams design training environments to match the [benchmarks](./benchmarks.md) they want to score well on, creating a feedback loop that inflates benchmark scores without improving real-world utility (see [eval-reality gap](../ideas/eval-reality-gap.md)). This is a form of systemic [reward hacking](./reward-hacking.md) that operates at the pipeline level rather than the model level.
 

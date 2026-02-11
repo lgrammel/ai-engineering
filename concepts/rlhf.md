@@ -4,7 +4,7 @@ RLHF (reinforcement learning from human feedback) is a [post-training](./post-tr
 
 ## Details
 
-The core idea is to train a reward model on human comparisons of model outputs, then optimize the LLM's policy against that reward model using [reinforcement learning](./reinforcement-learning.md). DPO (direct preference optimization) is a variant that skips the explicit reward model by optimizing directly on preference pairs. RLHF and its variants are typically applied after supervised [fine-tuning](./fine-tuning.md) and before deployment.
+The core idea is to train a reward model on human comparisons of model outputs, then optimize the LLM's policy against that reward model using [reinforcement learning](./reinforcement-learning.md). DPO (direct preference optimization) is a variant that skips the explicit reward model by optimizing directly on preference pairs. RLHF and its variants are typically applied after supervised [fine-tuning](./fine-tuning.md) and before deployment. Because the reward model is a learned proxy for human preferences, RLHF is susceptible to [reward hacking](./reward-hacking.md) - the model may learn to exploit the reward signal (for example producing sycophantic or verbose outputs) rather than genuinely improving on the intended objective.
 
 ## Synonyms
 

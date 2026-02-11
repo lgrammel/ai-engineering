@@ -1,6 +1,6 @@
 # Knowledge Cutoff
 
-A knowledge cutoff is the date boundary beyond which a model's weights typically do not encode information from its [training](./training.md) data. Events, publications, or changes that occurred after the cutoff are absent unless they are provided at [inference](./inference.md) time (for example via retrieval).
+A knowledge cutoff is the date boundary beyond which an [LLM](./llm.md)'s weights typically do not encode information from its [training](./training.md) data. Events, publications, or changes that occurred after the cutoff are absent unless they are provided at [inference](./inference.md) time (for example via retrieval).
 
 ## Details
 

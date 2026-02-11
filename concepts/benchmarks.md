@@ -4,7 +4,7 @@ Benchmarks are standardized evaluation suites (datasets, tasks, and scoring prot
 
 ## Details
 
-Benchmarks are often published with leaderboards, which can create incentives to optimize for benchmark-specific distributions rather than real-world performance (see [eval-reality gap](../ideas/eval-reality-gap.md)). They can also be compromised by data contamination (benchmark examples leaking into training data) or metric gaming.
+Benchmarks are often published with leaderboards, which can create incentives to optimize for benchmark-specific distributions rather than real-world performance (see [eval-reality gap](../ideas/eval-reality-gap.md)). They can also be compromised by data contamination (benchmark examples leaking into [training](./training.md) data) or metric gaming - a form of [reward hacking](./reward-hacking.md) where [LLM](./llm.md) developers or [reinforcement learning](./reinforcement-learning.md) pipelines optimize for benchmark scores rather than genuine capability.
 
 ## Examples
 

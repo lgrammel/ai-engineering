@@ -4,6 +4,8 @@ Context is the set of information an [LLM](./llm.md) application provides alongs
 
 ## Details
 
+Context is bounded by the model's [context size](./context-size.md) (measured in [tokens](./token.md)), and assembling effective context is the goal of [context engineering](./context-engineering.md). Models can adapt behavior based on examples and instructions provided in context without weight changes, a capability known as [in-context learning](./in-context-learning.md).
+
 Because context is the primary input the model reasons over, it is an attack surface for [context poisoning](../threats/context-poisoning.md): an attacker who can modify context sources (workspace files, memory stores, retrieved documents) can influence model behavior indirectly.
 
 ## Examples

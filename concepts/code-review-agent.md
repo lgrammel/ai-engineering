@@ -1,6 +1,6 @@
 # Code Review Agent
 
-An [agent](./agent.md) specialized for automated review of code changes, typically pull requests. Code review agents analyze diffs, detect bugs and style violations, organize changes for readability, and surface relevant context from the broader codebase.
+A [coding agent](./coding-agent.md) specialized for automated review of code changes, typically pull requests. Code review agents analyze diffs, detect bugs and style violations, organize changes for readability, and surface relevant context from the broader codebase.
 
 ## Details
 

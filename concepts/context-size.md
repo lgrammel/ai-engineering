@@ -6,7 +6,7 @@ Context size is the maximum amount of input (measured in [tokens](./token.md)) a
 
 Because tokens are produced by a model's [tokenizer](./tokenizer.md), the same text can consume different amounts of the context window across models.
 
-If the provided [context](./context.md) exceeds the model's context size, [prompt compaction](./prompt-compaction.md) techniques such as truncation or summarization are applied, which can change quality, safety, and behavior.
+Larger context windows allow richer inputs but increase [inference cost](./inference-cost.md) proportionally, since providers charge per token processed. If the provided [context](./context.md) exceeds the model's context size, [prompt compaction](./prompt-compaction.md) techniques such as truncation or summarization are applied, which can change quality, safety, and behavior.
 
 ## Examples
 

@@ -1,6 +1,6 @@
 # Model Developer
 
-An organization that develops model weights via [pretraining](./pretraining.md) and/or [post-training](./post-training.md) (for example [fine-tuning](./fine-tuning.md), preference-based alignment, or [distillation](./distillation.md)). The resulting models can be proprietary or open-weight.
+An organization that develops [LLM](./llm.md) weights via [pretraining](./pretraining.md) and/or [post-training](./post-training.md) (for example [fine-tuning](./fine-tuning.md), preference-based alignment, or [distillation](./distillation.md)). The resulting models can be proprietary or open-weight.
 
 ## Details
 

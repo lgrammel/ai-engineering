@@ -4,7 +4,9 @@
     "chatbots",
     "Checkpointing",
     "evals",
+    "PEFT",
     "Pretraining",
+    "RLHF",
     "sandboxed",
     "subword",
     "unigram"

@@ -14,7 +14,7 @@ Tools vary by who defines them, who executes them, and what capabilities they pr
 
 **Provider-executed tools** are both defined and executed by the [inference provider](./inference-provider.md). The developer enables them via the API, but execution happens server-side during [inference](./inference.md); the model's tool calls and resulting outputs are handled entirely within the provider's infrastructure before the response is returned. The model is specifically [trained](./training.md) on these tools.
 
-All three types rely on tool-calling ability learned during [training](./training.md) ([fine-tuning](./fine-tuning.md) on structured tool-call formats). Function tools depend only on this general ability plus the schema provided at [inference](./inference.md) time (which consumes [context](./context-size.md)), while provider-defined and provider-executed tools also involve targeted training on each tool's specific semantics. An [agent runtime](./agent-runtime.md) or client typically orchestrates the call-and-return loop between model and tools.
+All three types rely on tool-calling ability learned during [training](./training.md) ([fine-tuning](./fine-tuning.md) on structured tool-call formats). Function tools depend only on this general ability plus the schema provided at [inference](./inference.md) time (which consumes [context](./context.md)), while provider-defined and provider-executed tools also involve targeted training on each tool's specific semantics. An [agent runtime](./agent-runtime.md) or client typically orchestrates the call-and-return loop between model and tools.
 
 ### Common tools
 

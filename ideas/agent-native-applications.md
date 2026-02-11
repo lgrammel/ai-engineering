@@ -1,6 +1,6 @@
 # Agent-Native Applications
 
-Agent-native applications are the idea that software can be architected with [agents](../concepts/agent.md) as first-class citizens, where [tools](../concepts/tools.md) are atomic primitives and features are outcomes described in [prompts](../concepts/prompt.md) -- achieved by an agent operating in a loop -- rather than logic encoded in application code.
+Agent-native applications are the idea that software can be architected with [agents](../concepts/agent.md) as first-class citizens, where [tools](../concepts/tools.md) are atomic primitives and features are outcomes described in [prompts](../concepts/prompt.md) - achieved by an agent operating in a loop - rather than logic encoded in application code.
 
 ## Details
 

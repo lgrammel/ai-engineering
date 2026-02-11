@@ -1,6 +1,6 @@
 # Agent SEO
 
-Agent SEO is the idea that [agent](../concepts/agent.md) awareness and preference is a scarce resource, and that an emerging market exists for making offerings -- [tools](../concepts/tools.md), websites, software libraries, products, services -- discoverable and favored by agents.
+Agent SEO is the idea that [agent](../concepts/agent.md) awareness and preference is a scarce resource, and that an emerging market exists for making offerings - [tools](../concepts/tools.md), websites, software libraries, products, services - discoverable and favored by agents.
 
 ## Details
 
@@ -8,7 +8,7 @@ This applies across commerce, software libraries, and APIs: in each case, an off
 
 Awareness can be gained organically (usage data enters [training](../concepts/training.md) sets), through content optimized for agent consumption at [inference](../concepts/inference.md) time (loaded into [context](../concepts/context.md)), or through commercial engagement with [model developers](../concepts/model-developer.md) to influence training. [Library evals for model training](./library-evals-for-model-training.md) is one specific mechanism for the latter. In crowded domains, awareness cost rises because agents have limited attention, and a useful but unknown offering can lose to a mediocre but familiar one.
 
-Awareness alone is not sufficient -- an offering also needs low friction to stay selected. [Agent UX](./agent-ux.md) complements agent SEO as two sides of the same adoption problem: making the offering known versus making it easy to use.
+Awareness alone is not sufficient - an offering also needs low friction to stay selected. [Agent UX](./agent-ux.md) complements agent SEO as two sides of the same adoption problem: making the offering known versus making it easy to use.
 
 ## Examples
 

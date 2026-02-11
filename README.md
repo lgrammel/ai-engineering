@@ -4,7 +4,7 @@ A knowledge workspace about [AI engineering](concepts/ai-engineering.md) in prac
 
 The repository contains concept definitions, exploratory ideas and observations, and threats. Notes are designed for quick reference and are cross-linked to form a navigable knowledge graph.
 
-**Scope:** This repository focuses on AI engineering -- the application layer of building with foundation models (prompt design, context engineering, tool orchestration, RAG, agents, evals, observability, and production concerns). ML engineering concepts (model training, data curation, architecture design) are referenced where relevant but not covered in depth.
+**Scope:** This repository focuses on AI engineering - the application layer of building with foundation models (prompt design, context engineering, tool orchestration, RAG, agents, evals, observability, and production concerns). ML engineering concepts (model training, data curation, architecture design) are referenced where relevant but not covered in depth.
 
 > **Read-only repository**: Pull requests will not be accepted or reviewed.
 

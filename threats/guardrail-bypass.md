@@ -1,10 +1,10 @@
 # Guardrail Bypass
 
-Guardrail bypass encompasses techniques that circumvent an [LLM's](../concepts/llm.md) [guardrails](../concepts/guardrail.md) -- its built-in safety mechanisms, content filters, or alignment constraints -- causing the model to produce outputs it was trained or configured to refuse.
+Guardrail bypass encompasses techniques that circumvent an [LLM's](../concepts/llm.md) [guardrails](../concepts/guardrail.md) - its built-in safety mechanisms, content filters, or alignment constraints - causing the model to produce outputs it was trained or configured to refuse.
 
 ## Details
 
-While [prompt injection](./prompt-injection.md) targets an application's instructions (system prompt, developer rules), guardrail bypass specifically targets the safety layer established during [post-training](../concepts/post-training.md) alignment -- the model-level refusal behaviors and content policies. In practice the two threats often overlap, but guardrail bypass uses a distinct set of techniques that exploit the model's generalization boundaries rather than its instruction-following behavior.
+While [prompt injection](./prompt-injection.md) targets an application's instructions (system prompt, developer rules), guardrail bypass specifically targets the safety layer established during [post-training](../concepts/post-training.md) alignment - the model-level refusal behaviors and content policies. In practice the two threats often overlap, but guardrail bypass uses a distinct set of techniques that exploit the model's generalization boundaries rather than its instruction-following behavior.
 
 Common techniques include:
 

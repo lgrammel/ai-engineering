@@ -1,6 +1,6 @@
 # Prompt
 
-A prompt is the input sent to an [LLM](./llm.md) to elicit a desired behavior -- typically a combination of **instructions**, **[context](./context.md)**, and **examples**.
+A prompt is the input sent to an [LLM](./llm.md) to elicit a desired behavior - typically a combination of **instructions**, **[context](./context.md)**, and **examples**.
 
 ## Details
 

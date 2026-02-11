@@ -31,4 +31,4 @@ adversarial prompting
 
 ## External references
 
-- [Simon Willison -- Prompt injection](https://simonwillison.net/2022/Sep/12/prompt-injection/)
+- [Simon Willison - Prompt injection](https://simonwillison.net/2022/Sep/12/prompt-injection/)

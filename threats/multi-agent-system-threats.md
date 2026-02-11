@@ -4,12 +4,12 @@ Multi-Agent System Threats exploit the trust relationships, delegation chains, a
 
 ## Details
 
-Multi-agent systems introduce attack surfaces that single-agent systems do not have. Agents typically trust messages from peer agents, propagate permissions through delegation, and coordinate via shared state or message passing. An attacker -- whether an external human or a compromised agent within the system -- can exploit these seams to influence agents that would otherwise be inaccessible.
+Multi-agent systems introduce attack surfaces that single-agent systems do not have. Agents typically trust messages from peer agents, propagate permissions through delegation, and coordinate via shared state or message passing. An attacker - whether an external human or a compromised agent within the system - can exploit these seams to influence agents that would otherwise be inaccessible.
 
 Key attack vectors include:
 
 - **Communication poisoning**: Intercepting or injecting messages into inter-agent channels (shared message queues, API calls, shared state stores), causing downstream agents to act on false directives. This targets the communication layer rather than an agent's own context sources (which falls under [context poisoning](./context-poisoning.md)).
-- **Rogue agents**: An agent that operates outside its intended boundaries after being compromised (for example, via [prompt injection](./prompt-injection.md) or [context poisoning](./context-poisoning.md)) or due to [misaligned model behavior](./misaligned-model-behaviors.md). Rogue agents are dangerous because their actions may appear legitimate when viewed in isolation -- the malicious intent only becomes visible when the full workflow is considered.
+- **Rogue agents**: An agent that operates outside its intended boundaries after being compromised (for example, via [prompt injection](./prompt-injection.md) or [context poisoning](./context-poisoning.md)) or due to [misaligned model behavior](./misaligned-model-behaviors.md). Rogue agents are dangerous because their actions may appear legitimate when viewed in isolation - the malicious intent only becomes visible when the full workflow is considered.
 - **Delegation chain exploitation**: External attackers submitting crafted inputs to a front-end agent that delegates to privileged back-end agents, using the delegation chain to reach restricted resources. This often involves [prompt injection](./prompt-injection.md) payloads that propagate through agent handoffs.
 - **Agent impersonation**: A malicious actor posing as a trusted agent to inject commands or extract data, exploiting weak or absent mutual authentication between agents. This is often a means to achieve [privilege compromise](./privilege-compromise.md).
 

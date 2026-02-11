@@ -1,6 +1,6 @@
 # Agent Hosting Platform
 
-A hosted platform for deploying, running, and managing [agents](./agent.md) in production -- handling containerized deployment, task lifecycle, versioning, filesystem orchestration, and operational concerns (secrets, logs, environments) so teams ship agents without building custom infrastructure.
+A hosted platform for deploying, running, and managing [agents](./agent.md) in production - handling containerized deployment, task lifecycle, versioning, filesystem orchestration, and operational concerns (secrets, logs, environments) so teams ship agents without building custom infrastructure.
 
 ## Details
 
@@ -10,7 +10,7 @@ Common capabilities include containerized agent packaging (typically Docker), ev
 
 ## Examples
 
-- [Terminal Use](https://www.terminaluse.com/) -- purpose-built hosting for long-running agents that need filesystem access, with namespace-based multi-tenancy and Vercel AI SDK integration.
+- [Terminal Use](https://www.terminaluse.com/) - purpose-built hosting for long-running agents that need filesystem access, with namespace-based multi-tenancy and Vercel AI SDK integration.
 - General-purpose compute platforms (Modal, Render, Railway) adapted for agent workloads with container orchestration and persistent storage.
 
 ## Synonyms

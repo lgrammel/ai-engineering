@@ -1,6 +1,6 @@
 # Skill
 
-A reusable, modular set of instructions and resources that extends an [agent's](./agent.md) capabilities for a specific task or domain. Skills provide procedural knowledge -- step-by-step instructions, conventions, templates, or reference material -- that an [agent runtime](./agent-runtime.md) injects into the agent's [context](./context.md) when relevant.
+A reusable, modular set of instructions and resources that extends an [agent's](./agent.md) capabilities for a specific task or domain. Skills provide procedural knowledge - step-by-step instructions, conventions, templates, or reference material - that an [agent runtime](./agent-runtime.md) injects into the agent's [context](./context.md) when relevant.
 
 ## Details
 

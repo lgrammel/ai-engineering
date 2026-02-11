@@ -1,6 +1,6 @@
 # Token Economics
 
-Token economics is the idea that [agents](../concepts/agent.md) face a cost trade-off on every step: spend [tokens](../concepts/token.md) on GPU-based [inference](../concepts/inference.md) to reason through a problem, or delegate to a [tool](../concepts/tools.md) that executes on a CPU. Tools offer the traditional advantages of algorithms -- they are cheaper to run, faster, and produce precise, deterministic results. Inference is flexible and general-purpose but expensive per unit of work.
+Token economics is the idea that [agents](../concepts/agent.md) face a cost trade-off on every step: spend [tokens](../concepts/token.md) on GPU-based [inference](../concepts/inference.md) to reason through a problem, or delegate to a [tool](../concepts/tools.md) that executes on a CPU. Tools offer the traditional advantages of algorithms - they are cheaper to run, faster, and produce precise, deterministic results. Inference is flexible and general-purpose but expensive per unit of work.
 
 ## Details
 
@@ -8,7 +8,7 @@ The decision boundary shifts with the task. Arithmetic, text search, data retrie
 
 Tool adoption follows a cost logic: a tool gets used when the tokens saved by delegating to it exceed the tokens spent on knowing about it (schema in context) and operating it (formatting calls, parsing results). Tools with very high savings-to-cost ratios (e.g., grep, calculators, compilers) become permanent infrastructure. Tools where the ratio is marginal may be replaced when models become cheaper or more capable.
 
-Some agents blur the boundary by generating tools on the fly through code execution -- writing and running a short program instead of reasoning through the answer token by token. This turns inference into a tool factory: the model spends a small number of tokens producing code, then offloads the actual computation to a CPU-based runtime. Tasks like data transformation, numerical analysis, or format conversion become hybrid operations where inference handles the "what" and generated code handles the "how."
+Some agents blur the boundary by generating tools on the fly through code execution - writing and running a short program instead of reasoning through the answer token by token. This turns inference into a tool factory: the model spends a small number of tokens producing code, then offloads the actual computation to a CPU-based runtime. Tasks like data transformation, numerical analysis, or format conversion become hybrid operations where inference handles the "what" and generated code handles the "how."
 
 Tools that encode hard-won domain knowledge (e.g., git, databases, workflow engines) have strong survival characteristics, because the token cost of re-deriving that knowledge through inference is prohibitive.
 

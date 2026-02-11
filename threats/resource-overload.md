@@ -4,7 +4,7 @@ Resource Overload targets the computational, memory, network, and service capaci
 
 ## Details
 
-AI agents are particularly susceptible to resource overload because they combine expensive [inference](../concepts/inference.md) calls with [tool](../concepts/tools.md) executions that can consume compute, storage, API quotas, and real money. An attacker can trigger resource exhaustion by crafting inputs that cause long reasoning chains, excessive tool-call loops, retrieval of very large documents, or repeated calls to paid external APIs. A specific financial variant -- sometimes called "denial of wallet" -- aims to drive up API and compute costs rather than causing a service outage.
+AI agents are particularly susceptible to resource overload because they combine expensive [inference](../concepts/inference.md) calls with [tool](../concepts/tools.md) executions that can consume compute, storage, API quotas, and real money. An attacker can trigger resource exhaustion by crafting inputs that cause long reasoning chains, excessive tool-call loops, retrieval of very large documents, or repeated calls to paid external APIs. A specific financial variant - sometimes called "denial of wallet" - aims to drive up API and compute costs rather than causing a service outage.
 
 Resource overload can be triggered intentionally through [prompt injection](./prompt-injection.md) payloads that instruct the agent to enter expensive loops, or unintentionally through runaway agent loops and poorly bounded recursive tool calls, making resource limits and [observability](../concepts/observability.md) critical operational controls.
 

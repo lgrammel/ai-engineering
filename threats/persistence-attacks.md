@@ -4,7 +4,7 @@ Persistence attacks exploit an AI [agent's](../concepts/agent.md) write access t
 
 ## Details
 
-Unlike individual malicious actions (covered by [tool misuse](./tool-misuse.md) or [unauthorized code execution](./unauthorized-code-execution.md)), the defining characteristic of a persistence attack is the strategic intent to create durable access or influence. An attacker who gains temporary control of an agent -- for example through [prompt injection](./prompt-injection.md) or [goal manipulation](./goal-manipulation.md) -- uses that window to plant artifacts that remain effective after the compromised session ends. The artifacts are often subtle and designed to blend in with legitimate system configuration.
+Unlike individual malicious actions (covered by [tool misuse](./tool-misuse.md) or [unauthorized code execution](./unauthorized-code-execution.md)), the defining characteristic of a persistence attack is the strategic intent to create durable access or influence. An attacker who gains temporary control of an agent - for example through [prompt injection](./prompt-injection.md) or [goal manipulation](./goal-manipulation.md) - uses that window to plant artifacts that remain effective after the compromised session ends. The artifacts are often subtle and designed to blend in with legitimate system configuration.
 
 Agents with broad file-system access, shell access, or deployment permissions (such as [coding agents](../concepts/coding-agent.md) and DevOps agents) are especially susceptible, because they routinely perform the same kinds of write operations an attacker would use to establish persistence.
 

@@ -4,7 +4,7 @@ A [coding agent](./coding-agent.md) that runs on remote cloud infrastructure rat
 
 ## Details
 
-Cloud coding agents receive tasks through various entry points -- chat interfaces, Slack, issue trackers, APIs, or CLIs -- and produce outputs (typically pull requests) that humans review. This delegation model contrasts with the synchronous pair-programming model of [local coding agents](./local-coding-agent.md): instead of a developer steering the agent in real time, the developer describes a task and reviews the result later. Multiple cloud agent sessions can run in parallel, shifting the bottleneck from developer availability to review capacity.
+Cloud coding agents receive tasks through various entry points - chat interfaces, Slack, issue trackers, APIs, or CLIs - and produce outputs (typically pull requests) that humans review. This delegation model contrasts with the synchronous pair-programming model of [local coding agents](./local-coding-agent.md): instead of a developer steering the agent in real time, the developer describes a task and reviews the result later. Multiple cloud agent sessions can run in parallel, shifting the bottleneck from developer availability to review capacity.
 
 Because cloud coding agents connect to repositories, CI pipelines, and deployment infrastructure at the org level, they are accessible to non-developers (PMs, designers, support staff) who can trigger tasks without local tooling or Git knowledge. Integration with [MCP](./mcp.md) servers extends their reach to error tracking, monitoring, databases, and other engineering infrastructure. Teams often encode recurring workflows into [skills](./skill.md) (sometimes called playbooks) so anyone in the organization can trigger a standardized process.
 

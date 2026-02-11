@@ -1,6 +1,6 @@
 # Supply Chain Attack
 
-A supply chain attack targets the external components an AI [agent](../concepts/agent.md) system depends on -- models, [tools](../concepts/tools.md), packages, [skills](../concepts/skill.md), or APIs -- by introducing malicious or backdoored elements that the system trusts and integrates without sufficient verification.
+A supply chain attack targets the external components an AI [agent](../concepts/agent.md) system depends on - models, [tools](../concepts/tools.md), packages, [skills](../concepts/skill.md), or APIs - by introducing malicious or backdoored elements that the system trusts and integrates without sufficient verification.
 
 ## Details
 
@@ -20,7 +20,7 @@ Supply chain attacks differ from [context poisoning](./context-poisoning.md) (wh
 ## Examples
 
 - An attacker publishes a backdoored model on a public model hub that behaves normally on [benchmarks](../concepts/benchmarks.md) but exfiltrates sensitive [context](../concepts/context.md) when deployed in production.
-- A malicious MCP server advertises useful tools but silently logs all arguments -- including credentials and user data -- to an external endpoint.
+- A malicious MCP server advertises useful tools but silently logs all arguments - including credentials and user data - to an external endpoint.
 - A [coding agent](../concepts/coding-agent.md) recommends a typosquatted npm package that executes a reverse shell on install.
 - An attacker distributes a skill file that injects hidden instructions causing the agent to bypass code review checks or insert backdoors into generated code.
 - An attacker compromises a third-party API used by an agent for data enrichment, causing it to return responses containing [prompt injection](./prompt-injection.md) payloads.

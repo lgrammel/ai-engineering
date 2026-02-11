@@ -1,6 +1,6 @@
 # Hybrid Search
 
-Hybrid search is a retrieval strategy that combines two or more search methods -- typically semantic (vector) search and lexical (keyword) search -- and merges their results to improve both recall and precision over either method alone.
+Hybrid search is a retrieval strategy that combines two or more search methods - typically semantic (vector) search and lexical (keyword) search - and merges their results to improve both recall and precision over either method alone.
 
 ## Details
 

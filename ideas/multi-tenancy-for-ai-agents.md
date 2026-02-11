@@ -1,6 +1,6 @@
 # Multi-Tenancy for AI Agents
 
-The idea that [agent](../concepts/agent.md) infrastructure increasingly requires tenant-level isolation -- data, compute, and permissioning boundaries per customer -- rather than the shared-resource model common in traditional SaaS.
+The idea that [agent](../concepts/agent.md) infrastructure increasingly requires tenant-level isolation - data, compute, and permissioning boundaries per customer - rather than the shared-resource model common in traditional SaaS.
 
 ## Details
 

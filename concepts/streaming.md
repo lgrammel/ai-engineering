@@ -4,7 +4,7 @@ Streaming is a delivery mode for [LLM](./llm.md) [inference](./inference.md) in 
 
 ## Details
 
-Most [inference providers](./inference-provider.md) expose streaming via server-sent events (SSE) over HTTP: each event carries one or more newly generated tokens, and the client assembles them into a growing response. Streaming reduces perceived [latency](./latency.md) because the user sees output begin within the time-to-first-token window rather than waiting for the entire generation to finish -- this is especially important for [chatbot](./chatbot.md) interfaces where responses may take several seconds to generate fully.
+Most [inference providers](./inference-provider.md) expose streaming via server-sent events (SSE) over HTTP: each event carries one or more newly generated tokens, and the client assembles them into a growing response. Streaming reduces perceived [latency](./latency.md) because the user sees output begin within the time-to-first-token window rather than waiting for the entire generation to finish - this is especially important for [chatbot](./chatbot.md) interfaces where responses may take several seconds to generate fully.
 
 Streaming introduces complexity for [structured output](./structured-output.md) and [tool](./tools.md) calls: tool call arguments arrive as partial token sequences that cannot be parsed or executed until complete, so [agent runtimes](./agent-runtime.md) must buffer and reassemble streamed tool calls before dispatching them. [Observability](./observability.md) systems also need to handle streaming traces, since the response is not a single atomic event but a sequence of incremental chunks with timing information.
 

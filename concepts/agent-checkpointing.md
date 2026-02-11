@@ -1,6 +1,6 @@
 # Agent Checkpointing
 
-Capturing a snapshot of an [agent's](./agent.md) execution state -- typically filesystem contents, conversation history, and tool outputs -- at a point in time, enabling resume, rollback, or forking from that snapshot.
+Capturing a snapshot of an [agent's](./agent.md) execution state - typically filesystem contents, conversation history, and tool outputs - at a point in time, enabling resume, rollback, or forking from that snapshot.
 
 ## Details
 
@@ -8,7 +8,7 @@ Checkpointing is distinct from [agent memory](./agent-memory.md), which persists
 
 A key application is trajectory forking: branching from a checkpoint to test alternative tool calls, prompts, or recovery strategies without restarting from scratch. This supports iterative debugging (fork from the last good step, fix, and resume), A/B evaluation of agent strategies on identical state, and production recovery (roll back to a known-good checkpoint after a bad tool execution).
 
-For multi-step tasks, checkpointing can be combined with task-level progress tracking -- recording individual subtask status (pending, in-progress, completed, failed, skipped) -- so that a resumed session knows which steps were completed and can continue from the first incomplete task rather than replaying the entire sequence.
+For multi-step tasks, checkpointing can be combined with task-level progress tracking - recording individual subtask status (pending, in-progress, completed, failed, skipped) - so that a resumed session knows which steps were completed and can continue from the first incomplete task rather than replaying the entire sequence.
 
 ## Examples
 

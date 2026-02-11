@@ -4,7 +4,7 @@
  * Check markdown files for typography issues:
  * - Curly/smart quotes should be straight quotes (" ')
  * - Curly apostrophes should be straight apostrophes (')
- * - Em dashes and en dashes flagged (use -- or - instead)
+ * - Em dashes and en dashes flagged (use - instead)
  * - Ellipsis character flagged (use ... instead)
  */
 
@@ -20,7 +20,7 @@ const CHECKS = [
     name: "curly single quote/apostrophe (close)",
     replacement: "'",
   },
-  { pattern: /\u2014/g, name: "em dash", replacement: "--" },
+  { pattern: /\u2014/g, name: "em dash", replacement: "-" },
   { pattern: /\u2013/g, name: "en dash", replacement: "-" },
   { pattern: /\u2026/g, name: "ellipsis character", replacement: "..." },
 ];

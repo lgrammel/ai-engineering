@@ -4,7 +4,7 @@ An eval runner is the software component that executes [evaluation](./evals.md) 
 
 ## Details
 
-Eval runners are distinct from eval definitions (which describe _what_ to measure) -- the runner is the execution engine that carries out those definitions. They typically handle concurrency, retries, rate-limit backoff against [inference providers](./inference-provider.md), caching of intermediate results, and integration with [observability](./observability.md) for tracing and logging each eval step.
+Eval runners are distinct from eval definitions (which describe _what_ to measure) - the runner is the execution engine that carries out those definitions. They typically handle concurrency, retries, rate-limit backoff against [inference providers](./inference-provider.md), caching of intermediate results, and integration with [observability](./observability.md) for tracing and logging each eval step.
 
 Eval runners can operate in different modes: locally during development (for fast iteration on [prompts](./prompt.md) or tool configurations), in CI pipelines (as automated release gates), or as hosted services that run on a schedule or in response to deployment events.
 

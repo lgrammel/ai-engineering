@@ -1,6 +1,6 @@
 # Reasoning
 
-Reasoning is an [LLM](./llm.md) capability involving multi-step inference, deduction, or planning to arrive at an answer -- for example breaking a problem into parts, evaluating constraints, or sequencing actions.
+Reasoning is an [LLM](./llm.md) capability involving multi-step inference, deduction, or planning to arrive at an answer - for example breaking a problem into parts, evaluating constraints, or sequencing actions.
 
 ## Details
 

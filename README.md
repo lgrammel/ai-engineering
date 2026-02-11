@@ -4,13 +4,15 @@ A knowledge workspace about [AI engineering](concepts/ai-engineering.md) in prac
 
 The repository contains concept definitions, exploratory ideas and observations, and threats. Notes are designed for quick reference and are cross-linked to form a navigable knowledge graph.
 
-**Scope:** This repository focuses on AI engineering - the application layer of building with foundation models (prompt design, context engineering, tool orchestration, RAG, agents, evals, observability, and production concerns). ML engineering concepts (model training, data curation, architecture design) are referenced where relevant but not covered in depth.
-
 > **Read-only repository**: Pull requests will not be accepted or reviewed.
+
+## Scope
+
+This repository focuses on AI engineering - the application layer of building with foundation models (prompt design, context engineering, tool orchestration, RAG, agents, evals, observability, and production concerns). ML engineering concepts (model training, data curation, architecture design) are referenced where relevant but not covered in depth.
 
 ## Concepts
 
-The `concepts/` folder contains a [lightweight, definition-first glossary for AI terms](concepts/index.md) used throughout this repo.
+The `concepts/` folder contains a [lightweight, definition-first glossary of AI engineering terms](concepts/index.md).
 
 ## Ideas
 
@@ -18,4 +20,4 @@ The `ideas/` folder contains notes on [speculative and emerging ideas about AI s
 
 ## Threats
 
-The `threats/` folder contains notes on [threats to AI agent systems](threats/index.md), describing attack vectors and vulnerabilities relevant to AI agents.
+The `threats/` folder contains notes on [threats to AI systems](threats/index.md), describing attack vectors and vulnerabilities.

@@ -2,7 +2,9 @@
 
 This repository is a lightweight knowledge workspace about [AI engineering](./concepts/ai-engineering.md) in practice. Each note captures a concept, role, or practice in a concise, definition-first format, covering what matters when building, integrating, and operating AI-powered systems on top of foundation models, and how they behave in production.
 
-**Scope:** The focus is AI engineering - the application layer of building with foundation models. ML engineering concepts (model training, data curation, architecture design) are out of scope: reference them with brief context where needed, but do not define them in depth. When an ML concept is relevant, link to it or provide a minimal description sufficient for an AI engineering audience.
+## Scope
+
+The focus is AI engineering - the application layer of building with foundation models. ML engineering concepts (model training, data curation, architecture design) are out of scope: reference them with brief context where needed, but do not define them in depth. When an ML concept is relevant, link to it or provide a minimal description sufficient for an AI engineering audience.
 
 ## Repository structure
 

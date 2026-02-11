@@ -1,6 +1,6 @@
 # Vector Database
 
-A vector database is a storage system optimized for indexing and querying high-dimensional vectors ([embeddings](./embedding.md)) via approximate nearest-neighbor (ANN) search, enabling fast similarity retrieval over large collections.
+A vector database is a storage system optimized for indexing and querying high-dimensional vectors ([embeddings](./embedding.md)) via approximate nearest-neighbor (ANN) search, enabling fast similarity [retrieval](./retrieval.md) over large collections.
 
 ## Details
 

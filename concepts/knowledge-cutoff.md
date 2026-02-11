@@ -6,7 +6,7 @@ A knowledge cutoff is the date boundary beyond which a model has no knowledge de
 
 The cutoff is determined by the data collection window used during [pretraining](./pretraining.md). Continued pretraining or [fine-tuning](./fine-tuning.md) on newer data can shift the boundary for specific domains but does not broadly extend the model's general knowledge. Queries that fall beyond the cutoff are a common source of [hallucination](./hallucination.md), because the model may generate plausible-sounding but outdated or fabricated answers rather than acknowledging ignorance.
 
-[RAG](./rag.md), [grounding](./grounding.md), and [web search tools](./web-search-tool.md) are the primary mitigations: by retrieving current information and injecting it into the [context](./context.md) at [inference](./inference.md) time, applications can supply the model with knowledge it lacks from training. [Inference providers](./inference-provider.md) typically publish each model's cutoff date so that application developers can assess whether retrieval augmentation is needed for their use case.
+[RAG](./rag.md), [grounding](./grounding.md), and [web search tools](./web-search-tool.md) are the primary mitigations: by [retrieving](./retrieval.md) current information and injecting it into the [context](./context.md) at [inference](./inference.md) time, applications can supply the model with knowledge it lacks from training. [Inference providers](./inference-provider.md) typically publish each model's cutoff date so that application developers can assess whether retrieval augmentation is needed for their use case.
 
 ## Examples
 

@@ -1,6 +1,6 @@
 # Chunking
 
-Chunking is the process of splitting documents or other content into smaller segments (chunks) so they can be individually converted to [embeddings](./embedding.md), indexed, and retrieved in a [RAG](./rag.md) pipeline.
+Chunking is the process of splitting documents or other content into smaller segments (chunks) so they can be individually converted to [embeddings](./embedding.md), indexed, and [retrieved](./retrieval.md) in a [RAG](./rag.md) pipeline.
 
 ## Details
 

@@ -1,6 +1,6 @@
 # Agentic RAG
 
-Agentic RAG is a [RAG](./rag.md) pattern where an [agent](./agent.md) controls the retrieval process through [tool](./tools.md) calls, dynamically deciding what to search for, which sources to query, and whether to refine or re-retrieve based on intermediate results, rather than following a fixed retrieve-then-generate pipeline.
+Agentic RAG is a [RAG](./rag.md) pattern where an [agent](./agent.md) controls the [retrieval](./retrieval.md) process through [tool](./tools.md) calls, dynamically deciding what to search for, which sources to query, and whether to refine or re-retrieve based on intermediate results, rather than following a fixed retrieve-then-generate pipeline.
 
 ## Details
 

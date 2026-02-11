@@ -59,6 +59,7 @@
 - [Prompt Compaction](./prompt-compaction.md)
 - [RAG](./rag.md)
 - [Reasoning](./reasoning.md)
+- [Retrieval](./retrieval.md)
 - [Red Teaming](./red-teaming.md)
 - [Reranking](./reranking.md)
 - [Reinforcement Learning](./reinforcement-learning.md)

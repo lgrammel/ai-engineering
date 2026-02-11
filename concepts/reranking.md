@@ -1,6 +1,6 @@
 # Reranking
 
-Reranking is a second-stage retrieval step that rescores an initial set of candidate results using a more expensive, higher-quality model to improve the final ranking before results are passed to an [LLM](./llm.md).
+Reranking is a second-stage [retrieval](./retrieval.md) step that rescores an initial set of candidate results using a more expensive, higher-quality model to improve the final ranking before results are passed to an [LLM](./llm.md).
 
 ## Details
 

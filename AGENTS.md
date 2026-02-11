@@ -152,9 +152,11 @@ Enforces plain ASCII characters for consistency and tooling compatibility.
 - **Manual check**: `pnpm check-quotes <file.md>`
 - **Script**: `scripts/check-quotes.js`
 
-### Link checking (markdown-link-check)
+### Link checking (check-links)
 
-Validates markdown links (both relative and external).
+Validates markdown links (both relative and external). Only dead links are reported, with file path, URL, and HTTP status.
 
+- **Check all files**: `pnpm check-links`
 - **Manual check**: `pnpm check-links <file.md>`
+- **Script**: `scripts/check-links.js`
 - **Config**: `.markdown-link-check.json` (timeouts, retries, ignored patterns)

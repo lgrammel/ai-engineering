@@ -22,6 +22,8 @@ All three types rely on tool-calling ability learned during [training](./trainin
 
 [Code execution tools](./code-execution-tool.md) let an agent run code (typically Python) inside a [sandbox](./sandbox.md) and receive the output as context. They close the loop between generating code and observing its effects, enabling tasks that require precise computation, data manipulation, or dynamic exploration.
 
+[Computer use tools](./computer-use-tool.md) let an agent interact with graphical user interfaces by capturing screenshots and performing mouse/keyboard actions. They enable a [computer use agent](./computer-use-agent.md) to operate any desktop or web application the same way a human would, providing a universal interface that works without dedicated APIs.
+
 Retrieval tools in [agentic RAG](./agentic-rag.md) let the agent issue search or lookup calls against knowledge bases, inspect results, and decide whether to refine the query or retrieve from additional sources.
 
 ### Model Context Protocol (MCP)

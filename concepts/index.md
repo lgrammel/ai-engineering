@@ -18,6 +18,8 @@
 - [Code Execution Tool](./code-execution-tool.md)
 - [Code Review Agent](./code-review-agent.md)
 - [Coding Agent](./coding-agent.md)
+- [Computer Use Agent](./computer-use-agent.md)
+- [Computer Use Tool](./computer-use-tool.md)
 - [Copilot Interface](./copilot-interface.md)
 - [Context](./context.md)
 - [Context Engineering](./context-engineering.md)

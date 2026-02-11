@@ -15,7 +15,7 @@ Architectural alternatives to compaction include [context isolation](./context-i
 - Summarizing a long chat history into a short "state of the conversation" block prepended to the latest user message.
 - Truncating tool call results (e.g., limiting file contents to the first N lines) before injecting them into context.
 - Using an LLM call to distill a set of retrieved documents into a condensed passage before the main generation step.
-- Replacing a full chain-of-thought trace from a previous [reasoning](./reasoning.md) step with only its final conclusion.
+- Replacing a full [reasoning](./reasoning.md) step with only its final conclusion.
 
 ## Synonyms
 

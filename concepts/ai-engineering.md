@@ -1,6 +1,6 @@
 # AI Engineering
 
-AI engineering is the discipline of building, integrating, and operating applications and systems on top of [foundation models](./llm.md), primarily through API-based integration rather than model training.
+AI engineering is the discipline of building, integrating, and operating applications and systems on top of models, primarily through API-based integration rather than model training.
 
 ## Details
 

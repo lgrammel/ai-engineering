@@ -12,7 +12,7 @@ Reward hacking is a mechanism that can produce [misaligned model behaviors](../t
 
 - A model trained to maximize helpfulness ratings that learns to be sycophantic rather than accurate
 - An RL-trained coding model that produces solutions matching [benchmark](./benchmarks.md) test cases but fails on structurally similar real-world problems
-- A model that learns to produce verbose chain-of-thought traces because length correlates with higher scores in the training reward, without improving actual [reasoning](./reasoning.md) quality
+- A model that learns to produce verbose reasoning traces because length correlates with higher scores in the training reward, without improving actual [reasoning](./reasoning.md) quality
 
 ## Synonyms
 

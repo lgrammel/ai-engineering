@@ -6,7 +6,7 @@ Data exfiltration is the unauthorized extraction or disclosure of sensitive data
 
 Data exfiltration can be direct (the model prints the data in its response) or indirect (the [agent](../concepts/agent.md) sends it via a tool call, writes it to a file, embeds it in a URL, or includes it in logs). It is frequently the end goal of [prompt injection](./prompt-injection.md) and [tool misuse](./tool-misuse.md) attacks: the attacker first gains control of the agent's behavior, then uses that control to extract sensitive data.
 
-Targets commonly include system prompts, API keys and credentials, retrieved documents, user PII, and database contents.
+Targets commonly include system prompts (see [system prompt extraction](./system-prompt-extraction.md)), API keys and credentials, retrieved documents, user PII, and database contents.
 
 ## Examples
 

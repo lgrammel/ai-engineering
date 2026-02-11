@@ -13,6 +13,7 @@
 - [Prompt Injection](./prompt-injection.md)
 - [Resource Overload](./resource-overload.md)
 - [Supply Chain Attack](./supply-chain-attack.md)
+- [System Prompt Extraction](./system-prompt-extraction.md)
 - [Tool Misuse](./tool-misuse.md)
 - [Training Data Poisoning](./training-data-poisoning.md)
 - [Unauthorized Code Execution](./unauthorized-code-execution.md)

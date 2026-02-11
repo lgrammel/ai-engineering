@@ -10,7 +10,7 @@ Compared to general-purpose infrastructure, AI infrastructure addresses concerns
 
 - Model hosting
 - [AI gateways](./ai-gateway.md)
-- [AI observability](./observability.md)
+- [Observability](./observability.md) for AI systems
 - AI search/RAG infrastructure
 - [Eval runners](./eval-runner.md)
 - [Sandboxes](./sandbox.md) (local or as-a-service)

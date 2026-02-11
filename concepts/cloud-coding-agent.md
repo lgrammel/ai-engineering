@@ -13,7 +13,7 @@ Cloud coding agents are well-suited to tasks that are quick to verify and well-s
 ## Examples
 
 - Devin, a cloud-native coding agent by Cognition that provides its own IDE, shell, and browser in a remote environment.
-- OpenAI Codex, which runs tasks in isolated cloud environments and produces pull requests.
+- A Git-hosting integrated coding agent that runs tasks in an isolated cloud environment and produces pull requests.
 - Cursor Background Agents, which execute asynchronously in cloud VMs while the developer continues other work.
 - Google Jules, which generates implementation plans and executes them in a cloud sandbox.
 

@@ -15,7 +15,7 @@ Computer use tools are a significant attack surface. [Prompt injection](../threa
 ## Examples
 
 - Anthropic's computer use tool: a provider-defined tool where Claude captures screenshots and controls mouse/keyboard in a developer-hosted sandbox environment, typically a Docker container running a Linux desktop with virtual display.
-- OpenAI's Computer-Using Agent (CUA): combines GPT-4o's vision with reinforcement learning to interact with GUIs, powering the Operator product for web-based task automation.
+- OpenAI's Computer-Using Agent (CUA): combines vision capabilities with reinforcement learning to interact with GUIs, powering the Operator product for web-based task automation.
 - Google's Project Mariner: a browser-focused computer use approach for navigating and interacting with web content.
 
 ## Synonyms

@@ -1,6 +1,6 @@
 # Training
 
-Training is the process of learning or updating a model's parameters (weights) from data by optimizing an objective (loss), typically using gradient-based methods. It is primarily an ML engineering concern; AI engineering consumes trained models rather than producing them.
+Training is the process of learning or updating a model's parameters (weights) from data by optimizing an objective (loss), typically using gradient-based methods. It is primarily an [ML engineering](./ml-engineering.md) concern; [AI engineering](./ai-engineering.md) consumes trained models rather than producing them.
 
 ## Details
 

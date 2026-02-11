@@ -43,6 +43,7 @@
 - [Local Coding Agent](./local-coding-agent.md)
 - [LLM](./llm.md)
 - [MCP](./mcp.md)
+- [ML Engineering](./ml-engineering.md)
 - [Model Developer (Model Creator)](./model-developer.md)
 - [Model Quantization](./model-quantization.md)
 - [Model Routing](./model-routing.md)

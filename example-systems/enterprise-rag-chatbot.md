@@ -38,6 +38,6 @@ This is one of the most common production architectures for enterprise AI applic
 
 ## Examples
 
-- A customer support chatbot that retrieves from a help-article knowledge base to answer questions across a multi-turn conversation.
+- A customer support chatbot that retrieves from a help-article knowledge base to answer questions across a multi-turn conversation, with no ability to take actions on the customer's behalf (see [Customer Support Agent](./customer-support-agent.md) for the agentic variant).
 - An internal company knowledge assistant that retrieves policy documents and maintains conversational context.
 - A product documentation chatbot that answers follow-up questions using retrieved technical docs.

@@ -113,12 +113,10 @@ Architecture notes live in `architectures/` and describe concrete deployment and
 
 Architecture notes reference concepts as building blocks (link, don't duplicate). Each architecture is defined by its capability boundaries: what the system can access (tools, filesystem, shell, network) and how components are isolated from each other.
 
-Architectures are layered: each more-capable architecture inherits the full threat surface of simpler ones. An agent with tools inherits all threats that apply to a single generation call; an agent with a colocated filesystem inherits all threats that apply to an agent with tools.
-
 Architecture notes follow concept note conventions (including the executive summary + optional `## Details` structure) with these additions:
 
 - `## Trust boundaries` is a required section describing what is inside and outside each boundary, and what crosses them. Place it after `## Details` (or after the executive summary if `## Details` is omitted).
-- `## Applicable threats` is a required section listing applicable threat notes as bullet points with links. Place it after `## Trust boundaries`.
+- `## Applicable threats` is a required section listing all applicable threat notes as bullet points with links. Each architecture note must list every threat that applies to it directly - do not reference or inherit threats from other architecture notes. Place it after `## Trust boundaries`.
 - `## Examples` and other optional sections follow after `## Applicable threats`.
 
 ### Prose style

@@ -2,7 +2,7 @@
 
 A knowledge workspace about [AI engineering](concepts/ai-engineering.md) in practice: what matters when building, integrating, and operating AI-powered systems on top of foundation models, and how they behave in production.
 
-The repository contains concept definitions, architecture topologies, exploratory ideas and observations, and threats. Notes are designed for quick reference and are cross-linked to form a navigable knowledge graph.
+The repository contains concept definitions, example system analyses, exploratory ideas and observations, and threats. Notes are designed for quick reference and are cross-linked to form a navigable knowledge graph.
 
 > **Read-only repository**: Pull requests will not be accepted or reviewed.
 
@@ -10,9 +10,9 @@ The repository contains concept definitions, architecture topologies, explorator
 
 This repository focuses on AI engineering - the application layer of building with foundation models (prompt design, context engineering, tool orchestration, RAG, agents, evals, observability, and production concerns). ML engineering concepts (model training, data curation, architecture design) are referenced where relevant but not covered in depth.
 
-## Architectures
+## Example Systems
 
-The `architectures/` folder contains notes on [concrete deployment and trust topologies for AI systems](architectures/index.md), describing system configurations, capability boundaries, and applicable threats.
+The `example-systems/` folder contains [analyses of concrete AI systems](example-systems/index.md) as compositions of concepts, describing how capabilities combine in real products and what trust model emerges from each specific composition.
 
 ## Concepts
 

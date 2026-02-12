@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const INDEX_DIRS = ["concepts", "ideas", "threats"];
+const INDEX_DIRS = ["architectures", "concepts", "ideas", "threats"];
 const collator = new Intl.Collator("en", { sensitivity: "base" });
 
 function parseIndexEntries(indexContent, indexPathForErrors) {

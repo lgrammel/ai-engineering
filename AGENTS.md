@@ -8,11 +8,12 @@ The focus is AI engineering - the application layer of building with foundation 
 
 ## Repository structure
 
-| Directory   | Contains                                                                   | Canonical for                      |
-| ----------- | -------------------------------------------------------------------------- | ---------------------------------- |
-| `concepts/` | Core term definitions (e.g. [LLMs](./concepts/llm.md), evals, fine-tuning) | Terminology and definitions        |
-| `ideas/`    | Speculative/emerging ideas, optionally attributed to external sources      | Opinion-driven or unproven ideas   |
-| `threats/`  | AI agent threat descriptions (e.g. context poisoning, tool misuse)         | Attack vectors and vulnerabilities |
+| Directory        | Contains                                                                   | Canonical for                          |
+| ---------------- | -------------------------------------------------------------------------- | -------------------------------------- |
+| `architectures/` | Concrete deployment/trust topologies for AI systems                        | System configurations and trust models |
+| `concepts/`      | Core term definitions (e.g. [LLMs](./concepts/llm.md), evals, fine-tuning) | Terminology and definitions            |
+| `ideas/`         | Speculative/emerging ideas, optionally attributed to external sources      | Opinion-driven or unproven ideas       |
+| `threats/`       | AI agent threat descriptions (e.g. context poisoning, tool misuse)         | Attack vectors and vulnerabilities     |
 
 Don't invent definitions in-line. If one is missing or unclear, **add or update a note** in the appropriate directory, then use it.
 
@@ -20,7 +21,7 @@ Treat notes as a living glossary: update entries as understanding changes.
 
 ## Writing notes
 
-All note types (concept, idea, threat) share these conventions. Type-specific rules follow in later sections.
+All note types (concept, idea, threat, architecture) share these conventions. Type-specific rules follow in later sections.
 
 ### Naming
 
@@ -106,6 +107,20 @@ Threat notes live in `threats/` and describe attack vectors, vulnerabilities, or
 
 - `## Mitigations` is an optional section listing countermeasures as bullet points with links to relevant notes. Place it after `## Examples` and before `## Synonyms` / `## External references`.
 
+## Architecture notes
+
+Architecture notes live in `architectures/` and describe concrete deployment and trust topologies for AI systems - specific configurations of components, capabilities, and trust boundaries that can be systematically analyzed for security. They differ from concept notes (which define vocabulary) by describing how building blocks are physically arranged and what the resulting trust model looks like.
+
+Architecture notes reference concepts as building blocks (link, don't duplicate). Each architecture is defined by its capability boundaries: what the system can access (tools, filesystem, shell, network) and how components are isolated from each other.
+
+Architectures are layered: each more-capable architecture inherits the full threat surface of simpler ones. An agent with tools inherits all threats that apply to a single generation call; an agent with a colocated filesystem inherits all threats that apply to an agent with tools.
+
+Architecture notes follow concept note conventions (including the executive summary + optional `## Details` structure) with these additions:
+
+- `## Trust boundaries` is a required section describing what is inside and outside each boundary, and what crosses them. Place it after `## Details` (or after the executive summary if `## Details` is omitted).
+- `## Applicable threats` is a required section listing applicable threat notes as bullet points with links. Place it after `## Trust boundaries`.
+- `## Examples` and other optional sections follow after `## Applicable threats`.
+
 ### Prose style
 
 Every sentence must add new information.
@@ -164,7 +179,7 @@ Validates markdown links (both relative and external). Only dead links are repor
 
 ### Index checking (check-indexes)
 
-Validates that each directory index (`concepts/index.md`, `ideas/index.md`, `threats/index.md`) lists all `.md` files in that directory (excluding `index.md`) and that entries are sorted alphabetically by visible name.
+Validates that each directory index (`architectures/index.md`, `concepts/index.md`, `ideas/index.md`, `threats/index.md`) lists all `.md` files in that directory (excluding `index.md`) and that entries are sorted alphabetically by visible name.
 
 - **Check all indexes**: `pnpm check-indexes`
 - **Script**: `scripts/check-indexes.js`

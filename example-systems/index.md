@@ -1,5 +1,6 @@
 # Example Systems
 
+- [AI-Powered Search Engine](./ai-powered-search-engine.md)
 - [ChatGPT](./chatgpt.md)
 - [Cloud Coding Agent](./cloud-coding-agent.md)
 - [Customer Support Agent](./customer-support-agent.md)

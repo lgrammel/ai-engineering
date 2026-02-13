@@ -1,5 +1,6 @@
 # Threats
 
+- [Approval Fatigue Exploitation](./approval-fatigue-exploitation.md)
 - [Context Poisoning](./context-poisoning.md)
 - [Cross-Tenant / Cross-Session Data Leakage](./cross-tenant-data-leakage.md)
 - [Data Exfiltration](./data-exfiltration.md)
@@ -7,7 +8,6 @@
 - [Goal Manipulation](./goal-manipulation.md)
 - [Guardrail Bypass](./guardrail-bypass.md)
 - [Hallucination Exploitation](./hallucination-exploitation.md)
-- [Human Approval Fatigue Exploitation](./human-approval-fatigue-exploitation.md)
 - [Misaligned Model Behaviors](./misaligned-model-behaviors.md)
 - [Multi-Agent System Threats](./multi-agent-system-threats.md)
 - [Persistence Attacks](./persistence-attacks.md)

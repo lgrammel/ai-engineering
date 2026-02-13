@@ -47,27 +47,27 @@ Review fidelity varies by form factor. IDE-embedded agents present changes in ri
 
 ## Threats
 
-| Threat                                                                                   | Relevance | Note                                                                                             |
-| ---------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------ |
-| [Prompt injection](../threats/prompt-injection.md)                                       | Primary   | Workspace files, tool outputs, and conversation direct file edits and shell commands unsandboxed |
-| [Context poisoning](../threats/context-poisoning.md)                                     | Primary   | Skill files and workspace files control agent behavior; compromised repo controls the agent      |
-| [Privilege compromise](../threats/privilege-compromise.md)                               | Primary   | No sandbox; agent operates with developer's full system permissions                              |
-| [Persistence attacks](../threats/persistence-attacks.md)                                 | Primary   | Backdoors in source code, CI config, skill files, git hooks survive sessions                     |
-| [Supply chain attack](../threats/supply-chain-attack.md)                                 | Primary   | Malicious dependencies installed via shell execute with developer's full permissions             |
-| [Unauthorized code execution](../threats/unauthorized-code-execution.md)                 | Primary   | Shell commands run with developer's full system permissions                                      |
-| [Tool misuse](../threats/tool-misuse.md)                                                 | Elevated  | Destructive file edits or shell commands across entire accessible filesystem                     |
-| [Data exfiltration](../threats/data-exfiltration.md)                                     | Elevated  | Credentials, SSH keys, source code via shell, network requests, or MCP calls                     |
-| [Human approval fatigue exploitation](../threats/human-approval-fatigue-exploitation.md) | Elevated  | High volume degrades review; IDE agents compound with auto-applied suggestions                   |
-| [Multi-agent system threats](../threats/multi-agent-system-threats.md)                   | Elevated  | Subagent injection propagation into parent agent's reasoning and edits                           |
-| [Tool output poisoning](../threats/tool-output-poisoning.md)                             | Elevated  | MCP responses or command outputs hijack subsequent reasoning                                     |
-| [Goal manipulation](../threats/goal-manipulation.md)                                     | Elevated  | Workspace files or tool outputs redirect agent objectives                                        |
-| [Denial of service](../threats/denial-of-service.md)                                     | Elevated  | Fork bombs, resource exhaustion in developer's local environment                                 |
-| [Hallucination exploitation](../threats/hallucination-exploitation.md)                   | Standard  | Incorrect code edits, wrong dependency choices                                                   |
-| [Guardrail bypass](../threats/guardrail-bypass.md)                                       | Standard  | Circumventing safety constraints on code generation or commands                                  |
-| [System prompt extraction](../threats/system-prompt-extraction.md)                       | Standard  | Revealing skill/rule file contents through conversation                                          |
-| [User manipulation](../threats/user-manipulation.md)                                     | Standard  | Developer trust in confident explanations for subtly harmful edits                               |
-| [Misaligned model behaviors](../threats/misaligned-model-behaviors.md)                   | Standard  | Sycophancy and shortcut-taking degrade code quality                                              |
-| [Training data poisoning](../threats/training-data-poisoning.md)                         | Standard  | Baseline risk, no architecture-specific amplifier                                                |
+| Threat                                                                       | Relevance | Note                                                                                             |
+| ---------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------ |
+| [Prompt injection](../threats/prompt-injection.md)                           | Primary   | Workspace files, tool outputs, and conversation direct file edits and shell commands unsandboxed |
+| [Context poisoning](../threats/context-poisoning.md)                         | Primary   | Skill files and workspace files control agent behavior; compromised repo controls the agent      |
+| [Privilege compromise](../threats/privilege-compromise.md)                   | Primary   | No sandbox; agent operates with developer's full system permissions                              |
+| [Persistence attacks](../threats/persistence-attacks.md)                     | Primary   | Backdoors in source code, CI config, skill files, git hooks survive sessions                     |
+| [Supply chain attack](../threats/supply-chain-attack.md)                     | Primary   | Malicious dependencies installed via shell execute with developer's full permissions             |
+| [Unauthorized code execution](../threats/unauthorized-code-execution.md)     | Primary   | Shell commands run with developer's full system permissions                                      |
+| [Tool misuse](../threats/tool-misuse.md)                                     | Elevated  | Destructive file edits or shell commands across entire accessible filesystem                     |
+| [Data exfiltration](../threats/data-exfiltration.md)                         | Elevated  | Credentials, SSH keys, source code via shell, network requests, or MCP calls                     |
+| [Approval fatigue exploitation](../threats/approval-fatigue-exploitation.md) | Elevated  | High volume degrades review; IDE agents compound with auto-applied suggestions                   |
+| [Multi-agent system threats](../threats/multi-agent-system-threats.md)       | Elevated  | Subagent injection propagation into parent agent's reasoning and edits                           |
+| [Tool output poisoning](../threats/tool-output-poisoning.md)                 | Elevated  | MCP responses or command outputs hijack subsequent reasoning                                     |
+| [Goal manipulation](../threats/goal-manipulation.md)                         | Elevated  | Workspace files or tool outputs redirect agent objectives                                        |
+| [Denial of service](../threats/denial-of-service.md)                         | Elevated  | Fork bombs, resource exhaustion in developer's local environment                                 |
+| [Hallucination exploitation](../threats/hallucination-exploitation.md)       | Standard  | Incorrect code edits, wrong dependency choices                                                   |
+| [Guardrail bypass](../threats/guardrail-bypass.md)                           | Standard  | Circumventing safety constraints on code generation or commands                                  |
+| [System prompt extraction](../threats/system-prompt-extraction.md)           | Standard  | Revealing skill/rule file contents through conversation                                          |
+| [User manipulation](../threats/user-manipulation.md)                         | Standard  | Developer trust in confident explanations for subtly harmful edits                               |
+| [Misaligned model behaviors](../threats/misaligned-model-behaviors.md)       | Standard  | Sycophancy and shortcut-taking degrade code quality                                              |
+| [Training data poisoning](../threats/training-data-poisoning.md)             | Standard  | Baseline risk, no architecture-specific amplifier                                                |
 
 ## Examples
 

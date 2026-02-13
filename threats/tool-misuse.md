@@ -16,7 +16,7 @@ When tool misuse involves the agent pursuing entirely new objectives (rather tha
 
 ## Mitigations
 
-- [Tool execution approval](../concepts/tool-execution-approval.md) for high-risk actions (effectiveness can be degraded by [human approval fatigue exploitation](./human-approval-fatigue-exploitation.md))
+- [Tool execution approval](../concepts/tool-execution-approval.md) for high-risk actions (effectiveness can be degraded by [approval fatigue exploitation](./approval-fatigue-exploitation.md))
 - Least-privilege [tool](../concepts/tools.md) permissions
 - [Sandboxing](../concepts/sandbox.md) tool execution environments
 - Input validation on tool arguments

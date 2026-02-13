@@ -46,28 +46,28 @@ There is no real-time human-in-the-loop during execution. The agent runs autonom
 
 ## Threats
 
-| Threat                                                                                   | Relevance | Note                                                                                             |
-| ---------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------ |
-| [Prompt injection](../threats/prompt-injection.md)                                       | Primary   | Issue descriptions, PR comments, repo files direct autonomous execution with no human checkpoint |
-| [Context poisoning](../threats/context-poisoning.md)                                     | Primary   | Skill files, issue descriptions, repo content; exploitable by non-developers who trigger tasks   |
-| [Persistence attacks](../threats/persistence-attacks.md)                                 | Primary   | Backdoors in merged PRs (CI config, git hooks) affect all future development                     |
-| [Data exfiltration](../threats/data-exfiltration.md)                                     | Primary   | Org-level secrets (repo tokens, CI keys, deployment credentials) accessible in sandbox           |
-| [Supply chain attack](../threats/supply-chain-attack.md)                                 | Primary   | Malicious dependencies in merged PRs execute with org-level permissions                          |
-| [Human approval fatigue exploitation](../threats/human-approval-fatigue-exploitation.md) | Elevated  | High PR volumes degrade reviewer attentiveness to subtle malicious changes                       |
-| [Multi-agent system threats](../threats/multi-agent-system-threats.md)                   | Elevated  | Subagent injection propagation into committed output                                             |
-| [Cross-tenant / cross-session data leakage](../threats/cross-tenant-data-leakage.md)     | Elevated  | Shared platform infrastructure between organizations' agent sessions                             |
-| [User manipulation](../threats/user-manipulation.md)                                     | Elevated  | Non-technical reviewers approve based on agent explanations rather than code understanding       |
-| [Tool misuse](../threats/tool-misuse.md)                                                 | Elevated  | Harmful code committed to PRs: removing security checks, weakening authentication                |
-| [Goal manipulation](../threats/goal-manipulation.md)                                     | Elevated  | Issue descriptions or repo files redirect agent objectives during autonomous execution           |
-| [Unauthorized code execution](../threats/unauthorized-code-execution.md)                 | Elevated  | Injected commands within sandbox; containment limits host impact but not task damage             |
-| [Tool output poisoning](../threats/tool-output-poisoning.md)                             | Elevated  | CI outputs, MCP responses hijack subsequent reasoning and edits                                  |
-| [Privilege compromise](../threats/privilege-compromise.md)                               | Elevated  | Org-level credentials in sandbox grant access beyond intended task scope                         |
-| [Denial of service](../threats/denial-of-service.md)                                     | Elevated  | Resource exhaustion, excessive PR generation overwhelms review capacity                          |
-| [Hallucination exploitation](../threats/hallucination-exploitation.md)                   | Standard  | Plausible-looking PRs with subtle defects pass automated checks                                  |
-| [Guardrail bypass](../threats/guardrail-bypass.md)                                       | Standard  | Circumventing safety constraints within sandbox                                                  |
-| [System prompt extraction](../threats/system-prompt-extraction.md)                       | Standard  | Instructions leaked in PR descriptions, commit messages, or code comments                        |
-| [Misaligned model behaviors](../threats/misaligned-model-behaviors.md)                   | Standard  | Sycophancy and shortcut-taking produce plausible PRs with subtle defects                         |
-| [Training data poisoning](../threats/training-data-poisoning.md)                         | Standard  | Baseline risk, no architecture-specific amplifier                                                |
+| Threat                                                                               | Relevance | Note                                                                                             |
+| ------------------------------------------------------------------------------------ | --------- | ------------------------------------------------------------------------------------------------ |
+| [Prompt injection](../threats/prompt-injection.md)                                   | Primary   | Issue descriptions, PR comments, repo files direct autonomous execution with no human checkpoint |
+| [Context poisoning](../threats/context-poisoning.md)                                 | Primary   | Skill files, issue descriptions, repo content; exploitable by non-developers who trigger tasks   |
+| [Persistence attacks](../threats/persistence-attacks.md)                             | Primary   | Backdoors in merged PRs (CI config, git hooks) affect all future development                     |
+| [Data exfiltration](../threats/data-exfiltration.md)                                 | Primary   | Org-level secrets (repo tokens, CI keys, deployment credentials) accessible in sandbox           |
+| [Supply chain attack](../threats/supply-chain-attack.md)                             | Primary   | Malicious dependencies in merged PRs execute with org-level permissions                          |
+| [Approval fatigue exploitation](../threats/approval-fatigue-exploitation.md)         | Elevated  | High PR volumes degrade reviewer attentiveness to subtle malicious changes                       |
+| [Multi-agent system threats](../threats/multi-agent-system-threats.md)               | Elevated  | Subagent injection propagation into committed output                                             |
+| [Cross-tenant / cross-session data leakage](../threats/cross-tenant-data-leakage.md) | Elevated  | Shared platform infrastructure between organizations' agent sessions                             |
+| [User manipulation](../threats/user-manipulation.md)                                 | Elevated  | Non-technical reviewers approve based on agent explanations rather than code understanding       |
+| [Tool misuse](../threats/tool-misuse.md)                                             | Elevated  | Harmful code committed to PRs: removing security checks, weakening authentication                |
+| [Goal manipulation](../threats/goal-manipulation.md)                                 | Elevated  | Issue descriptions or repo files redirect agent objectives during autonomous execution           |
+| [Unauthorized code execution](../threats/unauthorized-code-execution.md)             | Elevated  | Injected commands within sandbox; containment limits host impact but not task damage             |
+| [Tool output poisoning](../threats/tool-output-poisoning.md)                         | Elevated  | CI outputs, MCP responses hijack subsequent reasoning and edits                                  |
+| [Privilege compromise](../threats/privilege-compromise.md)                           | Elevated  | Org-level credentials in sandbox grant access beyond intended task scope                         |
+| [Denial of service](../threats/denial-of-service.md)                                 | Elevated  | Resource exhaustion, excessive PR generation overwhelms review capacity                          |
+| [Hallucination exploitation](../threats/hallucination-exploitation.md)               | Standard  | Plausible-looking PRs with subtle defects pass automated checks                                  |
+| [Guardrail bypass](../threats/guardrail-bypass.md)                                   | Standard  | Circumventing safety constraints within sandbox                                                  |
+| [System prompt extraction](../threats/system-prompt-extraction.md)                   | Standard  | Instructions leaked in PR descriptions, commit messages, or code comments                        |
+| [Misaligned model behaviors](../threats/misaligned-model-behaviors.md)               | Standard  | Sycophancy and shortcut-taking produce plausible PRs with subtle defects                         |
+| [Training data poisoning](../threats/training-data-poisoning.md)                     | Standard  | Baseline risk, no architecture-specific amplifier                                                |
 
 ## Examples
 

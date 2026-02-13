@@ -53,6 +53,7 @@
 - [Model Developer (Model Creator)](./model-developer.md)
 - [Model Quantization](./model-quantization.md)
 - [Model Routing](./model-routing.md)
+- [Model-as-a-Judge](./model-as-a-judge.md)
 - [Multi-Agent System](./multi-agent-system.md)
 - [Multi-turn Conversation](./multi-turn-conversation.md)
 - [Multimodal Model](./multimodal-model.md)

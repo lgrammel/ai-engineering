@@ -20,7 +20,6 @@
 - [Coding Agent](./coding-agent.md)
 - [Computer Use Agent](./computer-use-agent.md)
 - [Computer Use Tool](./computer-use-tool.md)
-- [Constrained Decoding](./constrained-decoding.md)
 - [Context](./context.md)
 - [Context Engineering](./context-engineering.md)
 - [Context Isolation](./context-isolation.md)

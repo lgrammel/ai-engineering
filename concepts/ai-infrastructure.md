@@ -13,7 +13,7 @@ AI infrastructure addresses these gaps across multiple layers. At the compute la
 - Model hosting - serving model weights behind an API with GPU allocation, autoscaling, and request queuing
 - [AI gateways](./ai-gateway.md) - routing, [rate limiting](./rate-limiting.md), and provider abstraction across multiple [inference providers](./inference-provider.md)
 - [Observability](./observability.md) for AI systems - tracing, token usage tracking, and output quality monitoring
-- AI search/[RAG](./rag.md) infrastructure - vector databases, [embedding](./embedding-model.md) pipelines, and retrieval services
+- AI search/[RAG](./rag.md) infrastructure - vector databases, [embedding](./embedding.md) pipelines, and retrieval services
 - [Eval runners](./eval-runner.md) - automated evaluation pipelines for measuring model and system output quality
 - [Sandboxes](./sandbox.md) - isolated execution environments for LLM-generated [code execution](./code-execution-tool.md)
 - [Agent hosting platforms](./agent-hosting-platform.md) - managed environments for deploying and scaling [agent](./agent.md) workloads

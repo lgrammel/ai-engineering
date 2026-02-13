@@ -14,4 +14,3 @@
 - [Multi-Tenancy for AI Agents](./multi-tenancy-for-ai-agents.md)
 - [Repository as Agent Workspace](./repository-as-agent-workspace.md)
 - [TDD as Agent Constraint](./tdd-as-agent-constraint.md)
-- [Token Economics](./token-economics.md)

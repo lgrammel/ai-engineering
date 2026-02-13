@@ -46,6 +46,7 @@
 - [Knowledge Cutoff](./knowledge-cutoff.md)
 - [Latency](./latency.md)
 - [LLM](./llm.md)
+- [Logprobs](./logprobs.md)
 - [MCP](./mcp.md)
 - [ML Engineering](./ml-engineering.md)
 - [Model Developer (Model Creator)](./model-developer.md)

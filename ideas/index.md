@@ -1,5 +1,6 @@
 # Ideas
 
+- [Agent Demonstration Artifacts](./agent-demonstration-artifacts.md)
 - [Agent SEO](./agent-seo.md)
 - [Agent UX](./agent-ux.md)
 - [Agent-Native Applications](./agent-native-applications.md)
@@ -12,4 +13,5 @@
 - [Library Evals for Model Training](./library-evals-for-model-training.md)
 - [Multi-Tenancy for AI Agents](./multi-tenancy-for-ai-agents.md)
 - [Repository as Agent Workspace](./repository-as-agent-workspace.md)
+- [TDD as Agent Constraint](./tdd-as-agent-constraint.md)
 - [Token Economics](./token-economics.md)

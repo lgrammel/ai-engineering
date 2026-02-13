@@ -86,7 +86,6 @@
 - [Subagent](./subagent.md)
 - [Synthetic Data](./synthetic-data.md)
 - [Token](./token.md)
-- [Token Economics](./token-economics.md)
 - [Tokenizer](./tokenizer.md)
 - [Tool Execution Approval](./tool-execution-approval.md)
 - [Tools](./tools.md)

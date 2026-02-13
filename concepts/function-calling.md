@@ -1,6 +1,6 @@
 # Function Calling
 
-Function calling is the original API term - introduced by OpenAI - for the model's ability to generate structured [tool](./tools.md) calls (a function name and JSON arguments) directed at developer-defined functions. Most providers have since adopted the broader term "[tool calling](./tools.md)" or "tool use," and function calling is now effectively synonymous with it, though it most precisely refers to the invocation of developer-defined function [tools](./tools.md) rather than provider-defined or provider-executed tools.
+Function calling is the model's ability to generate structured [tool](./tools.md) calls (a function name and JSON arguments) directed at developer-defined functions. Most provider APIs now use the broader term "[tool calling](./tools.md)" or "tool use," and function calling is effectively synonymous with it, though it most precisely refers to the invocation of developer-defined function [tools](./tools.md) rather than provider-defined or provider-executed tools.
 
 ## Details
 

@@ -18,19 +18,13 @@ All three types rely on tool-calling ability learned during [training](./trainin
 
 ### Common tools
 
-[Web search tools](./web-search-tool.md) give an agent access to current information from the web, bridging the [knowledge cutoff](./knowledge-cutoff.md) and [grounding](./grounding.md) responses in up-to-date sources. They exist as both function-based integrations (using providers like Exa, Tavily, or Brave Search API) and provider-executed built-ins (such as OpenAI's web search or Google's grounding with search).
+- [Web search tools](./web-search-tool.md)
+- [Code execution tools](./code-execution-tool.md)
+- [Computer use tools](./computer-use-tool.md)
+- [Shell tools](./shell-tool.md)
+- Retrieval tools in [agentic RAG](./agentic-rag.md)
 
-[Code execution tools](./code-execution-tool.md) let an agent run code (typically Python) inside a [sandbox](./sandbox.md) and receive the output as context. They close the loop between generating code and observing its effects, enabling tasks that require precise computation, data manipulation, or dynamic exploration.
-
-[Computer use tools](./computer-use-tool.md) let an agent interact with graphical user interfaces by capturing screenshots and performing mouse/keyboard actions. They enable a [computer use agent](./computer-use-agent.md) to operate any desktop or web application the same way a human would, providing a universal interface that works without dedicated APIs.
-
-[Shell tools](./shell-tool.md) give an agent access to a system shell (bash, zsh), enabling it to run arbitrary command-line programs, scripts, and pipelines. They are a core building block for [filesystem agents](./filesystem-agent.md) and [coding agents](./coding-agent.md), providing open-ended access to the operating system for builds, tests, package management, and git operations. Shell tools are typically provider-defined: the model is trained on the tool interface, but execution happens in the developer's environment or [sandbox](./sandbox.md).
-
-Retrieval tools in [agentic RAG](./agentic-rag.md) let the agent issue search or lookup calls against knowledge bases, inspect results, and decide whether to refine the query or retrieve from additional sources.
-
-### Model Context Protocol (MCP)
-
-[MCP](./mcp.md) is an open protocol that standardizes how agents discover and connect to external tool providers. From the model's perspective, MCP-served tools are function tools: the MCP server declares a name, description, and parameter schema, and the [agent runtime](./agent-runtime.md) includes these schemas at [inference](./inference.md) time. This decouples function-tool implementation from the agent, allowing any MCP-compatible server to supply tools to any MCP-compatible client without custom integration code.
+[MCP](./mcp.md) standardizes how agents discover and connect to external tool providers, decoupling function-tool implementation from the agent.
 
 Because tools bridge the gap between model outputs and real-world actions, they are a primary attack surface for threats such as [tool misuse](../threats/tool-misuse.md) (authorized but harmful tool calls), [unauthorized code execution](../threats/unauthorized-code-execution.md) (code injection through execution tools), [data exfiltration](../threats/data-exfiltration.md) (data extraction via tool calls), and [supply chain attack](../threats/supply-chain-attack.md) (malicious or backdoored tool integrations). [Tool execution approval](./tool-execution-approval.md) is a common mitigation that requires human confirmation before high-risk tool calls are executed.
 

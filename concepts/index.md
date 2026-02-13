@@ -64,6 +64,8 @@
 - [Prompt Caching](./prompt-caching.md)
 - [Prompt Compaction](./prompt-compaction.md)
 - [Prompt Engineering](./prompt-engineering.md)
+- [Prompt Management](./prompt-management.md)
+- [Prompt Template](./prompt-template.md)
 - [Quota Management](./quota-management.md)
 - [RAG](./rag.md)
 - [Rate Limiting](./rate-limiting.md)

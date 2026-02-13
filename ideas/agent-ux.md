@@ -4,7 +4,7 @@ Agent UX is the idea that software libraries and [tools](../concepts/tools.md) d
 
 ## Details
 
-In practice, this means watching how agents attempt to use an API, CLI, or library (including [hallucinated](../concepts/hallucination.md) commands, flags, and function names), then implementing whatever they repeatedly try. An interface that matches agent expectations needs less documentation loaded into [context](../concepts/context.md), saving [tokens](../concepts/token.md) at [inference](../concepts/inference.md) time.
+In practice, this means watching how agents attempt to use an API, CLI, or library (including [hallucinated](../concepts/hallucination.md) commands, flags, and function names), then implementing whatever they repeatedly try. [Local coding agents](../example-systems/local-coding-agent.md) are the primary consumers of these "desire path" interfaces, since they continuously interact with CLIs, libraries, and APIs during development sessions. An interface that matches agent expectations needs less documentation loaded into [context](../concepts/context.md), saving [tokens](../concepts/token.md) at [inference](../concepts/inference.md) time.
 
 This has a dual-use relationship with [hallucination exploitation](../threats/hallucination-exploitation.md): the same predictability that lets a tool author make hallucinated interfaces real also lets an attacker register hallucinated package names and serve compromised artifacts. The underlying phenomenon - that model outputs are consistent enough to anticipate - is neutral; the intent determines whether it is a design technique or an attack vector.
 

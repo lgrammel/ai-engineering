@@ -6,7 +6,7 @@ Dependency-free software is the idea that software will increasingly be built wi
 
 Four forces drive this shift:
 
-- **Generation is cheap.** [Coding agents](../concepts/coding-agent.md) can produce working implementations at negligible cost compared to the human time previously required to write equivalent code from scratch. When generating code is nearly free, the economic rationale for importing a library - saving development time - weakens.
+- **Generation is cheap.** [Coding agents](../concepts/coding-agent.md) - both [local](../example-systems/local-coding-agent.md) and [cloud](../example-systems/cloud-coding-agent.md) - can produce working implementations at negligible cost compared to the human time previously required to write equivalent code from scratch. When generating code is nearly free, the economic rationale for importing a library - saving development time - weakens.
 - **Full control.** Self-contained code is fully visible, debuggable, and modifiable without working around library abstractions, versioning constraints, or opaque internals.
 - **Tailored to the exact use case.** A generated implementation covers only the specific behavior needed, with no unused features, unnecessary abstraction layers, or configuration surface. This can result in simpler, smaller, and sometimes faster code than the general-purpose library equivalent.
 - **No [supply chain](../threats/supply-chain-attack.md) risk.** Eliminating external dependencies removes exposure to malicious packages, transitive vulnerabilities, and breaking upstream changes.

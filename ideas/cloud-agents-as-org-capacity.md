@@ -4,7 +4,7 @@ The idea that cloud [coding agents](../concepts/coding-agent.md) represent organ
 
 ## Details
 
-Under this framing, a local agent makes one developer faster, while a cloud agent - once configured and taught conventions - makes the entire engineering organization faster. When someone encodes a workflow into a reusable [skill](../concepts/skill.md) or playbook (e.g., remediating security vulnerabilities from a scanning tool), anyone in the company can trigger that same process. Expertise gets encoded once and executed repeatedly.
+Under this framing, a [local coding agent](../example-systems/local-coding-agent.md) makes one developer faster, while a [cloud coding agent](../example-systems/cloud-coding-agent.md) - once configured and taught conventions - makes the entire engineering organization faster. When someone encodes a workflow into a reusable [skill](../concepts/skill.md) or playbook (e.g., remediating security vulnerabilities from a scanning tool), anyone in the company can trigger that same process. Expertise gets encoded once and executed repeatedly.
 
 This shifts the natural pricing model from per-seat (tied to individual developers) to usage-based (tied to work performed). Per-seat pricing breaks down when non-developers trigger agent sessions from Slack, when issue trackers spawn automated workflows, or when CI failures launch debugging agents - the unit of value is the work done, not the person initiating it.
 

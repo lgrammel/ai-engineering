@@ -4,7 +4,7 @@ Agent SEO is the idea that [agent](../concepts/agent.md) awareness and preferenc
 
 ## Details
 
-This applies across commerce, software libraries, and APIs: in each case, an offering that agents don't know about or can't use correctly loses to a familiar alternative, regardless of merit. [Coding agents](../concepts/coding-agent.md) pass over unknown libraries, agentic [chatbots](../concepts/conversational-interface.md) skip businesses they can't find, and agents bypass tools they don't recognize.
+This applies across commerce, software libraries, and APIs: in each case, an offering that agents don't know about or can't use correctly loses to a familiar alternative, regardless of merit. [Local](../example-systems/local-coding-agent.md) and [cloud coding agents](../example-systems/cloud-coding-agent.md) pass over unknown libraries, [AI-powered search engines](../example-systems/ai-powered-search-engine.md) and [deep research agents](../example-systems/deep-research-agent.md) skip businesses they can't find, and agents bypass tools they don't recognize.
 
 Awareness can be gained organically (usage data enters [training](../concepts/training.md) sets), through content optimized for agent consumption at [inference](../concepts/inference.md) time (loaded into [context](../concepts/context.md)), or through commercial engagement with [model developers](../concepts/model-developer.md) to influence training directly. In crowded domains, awareness cost rises because agents have limited attention, and a useful but unknown offering can lose to a mediocre but familiar one.
 

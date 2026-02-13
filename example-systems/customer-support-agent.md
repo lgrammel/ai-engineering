@@ -4,7 +4,7 @@ A customer-facing [chatbot](../concepts/conversational-interface.md) that combin
 
 ## Details
 
-This architecture extends the [Enterprise RAG Chatbot](./enterprise-rag-chatbot.md) pattern with an [agent](../concepts/agent.md) loop and transactional [tools](../concepts/tools.md). The Enterprise RAG Chatbot has no tool access or agent behavior - its blast radius is limited to text output quality. Adding an agent loop with business API tools means a successful attack can trigger real-world financial and operational consequences, fundamentally changing the trust model.
+This architecture extends the [Enterprise RAG Chatbot](./enterprise-rag-chatbot.md) pattern with an [agent](../concepts/agent.md) loop and transactional [tools](../concepts/tools.md). The Enterprise RAG Chatbot has no tool access or agent behavior - its blast radius is limited to text output quality. Adding an agent loop with business API tools means a successful attack can trigger real-world financial and operational consequences, fundamentally changing the trust model. Customer support agents also illustrate elements of the [agent-native application](../ideas/agent-native-applications.md) pattern: schema-constrained API tools serve as atomic primitives, and the agent loop handles routing and edge cases rather than hard-coded branching logic. Observing what customers ask the agent to do - and where it fails or escalates - is a form of [latent demand discovery](../ideas/latent-demand-discovery.md), revealing unmet support needs and missing knowledge base content.
 
 ## Capabilities
 

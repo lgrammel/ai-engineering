@@ -24,6 +24,10 @@ The constraint is complementary to [agent demonstration artifacts](./agent-demon
 - The red/green cycle assumes the agent writes meaningful tests. An agent optimizing for the appearance of TDD can write trivially passing tests (`assert result is not None`) that satisfy the red/green pattern without actually constraining the implementation. The supervision value depends on test quality, which itself requires review.
 - Forcing test-first development on every task adds overhead to exploratory or prototyping work where the requirements are not yet clear enough to specify as tests. For discovery-phase tasks, TDD as a constraint may slow the agent without adding proportional trust, since the tests themselves will need to be rewritten once the design stabilizes.
 
+## Confidence
+
+**High.** Immediately practical, demonstrated in production workflows, and frontier models reliably interpret the red/green instruction. The counterarguments identify scope limits (not all qualities are testable, test quality varies) but do not undermine the core supervision mechanism.
+
 ## External references
 
 - https://simonwillison.net/2026/Feb/10/showboat-and-rodney/

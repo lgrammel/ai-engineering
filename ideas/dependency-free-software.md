@@ -23,6 +23,10 @@ Four forces drive this shift:
 - Widespread adoption fragments the ecosystem: instead of one well-tested library with thousands of users finding bugs, there are thousands of bespoke implementations each tested only against their own narrow use case.
 - Productized services - the same kind of software built repeatedly for many customers around shared domain concepts - invert the economics. A shared library encapsulates domain logic once and propagates fixes across every customer project, while bespoke generated code must be patched, audited, and evolved independently in each instance. At scale, the maintenance cost of owning duplicated implementations across many customer projects far exceeds the cost of depending on a shared library.
 
+## Confidence
+
+**Low.** The counterarguments - particularly about maintenance burden of frozen code, ecosystem fragmentation, and the inverted economics of productized services - largely outweigh the thesis for most practical scenarios. The idea holds for isolated utility code where the library dependency is disproportionate to the functionality used, but the note overgeneralizes from that narrow case.
+
 ## External references
 
 - https://x.com/karpathy/status/2021633574089416993

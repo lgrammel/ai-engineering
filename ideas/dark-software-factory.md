@@ -26,6 +26,10 @@ The central open question is trust: how do you prove that software works when no
 - Agents writing both implementation and validation (even with holdout separation) creates a systemic monoculture risk: if the underlying [LLM](../concepts/llm.md) has a consistent blind spot, the same flaw can appear in both the implementation and the digital twin used to validate it, passing all checks while harboring a shared deficiency.
 - The economic case depends on current [inference cost](../concepts/inference-cost.md) trajectories and the assumption that token costs will remain the dominant constraint. If agent reliability plateaus before specifications can be made precise enough, the cost of iterating to convergence may exceed traditional development for complex systems.
 
+## Confidence
+
+**Medium.** The holdout scenario and digital twin concepts are novel and the early examples are concrete, but the specification difficulty counterargument is fundamental - it echoes the same problem that has limited formal methods for decades. The approach is unproven beyond early demonstrations, and the LLM monoculture risk remains unaddressed.
+
 ## External references
 
 - <https://simonwillison.net/2026/Feb/7/software-factory/>

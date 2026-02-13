@@ -22,6 +22,10 @@ Demonstration artifacts sit between two extremes of agent supervision: full [hum
 - The approach adds overhead to every agent session: producing the demo takes time and tokens. For tasks where automated tests already provide high confidence (pure logic, well-specified transformations), the demonstration artifact may be redundant verification that slows the feedback loop without adding trust.
 - Constraining agents to append-only, execution-backed document construction is difficult to enforce reliably. Agents with filesystem access can always edit files directly, and detecting whether a document was constructed through the sanctioned tool or modified by hand requires its own verification layer - turtles all the way down.
 
+## Confidence
+
+**Medium.** The trust property - artifacts must be execution-backed rather than freehand - is sound and the concept is practically useful for async agent supervision. However, the enforcement problem (constraining agents to append-only execution) and the selective demonstration risk (agents choose which scenarios to show) limit practical reliability without additional verification layers.
+
 ## External references
 
 - https://simonwillison.net/2026/Feb/10/showboat-and-rodney/

@@ -18,6 +18,10 @@ Common approaches that fall short of agent-native include agent-as-router (using
 - The framing of coded edge-case handling as an anti-pattern ignores that deterministic branches are often a regulatory or business requirement, not a limitation of imagination. "Let the agent handle it" is not an acceptable answer when the handling must be documented, repeatable, and legally defensible.
 - Atomic tools with full parity create a large, unsecured action space. The more capable the agent becomes (approaching full UI parity), the larger the [tool misuse](../threats/tool-misuse.md) and [prompt injection](../threats/prompt-injection.md) attack surface. The "defensive tool design" that the note dismisses as an anti-pattern is often a deliberate security constraint.
 
+## Confidence
+
+**Low.** The five principles are well-articulated as a design philosophy, but the counterarguments around predictability requirements, regulatory compliance, and the security implications of full tool parity substantially limit applicability. The note does not clearly delineate which use cases benefit from agent-native architecture versus which require deterministic, auditable behavior, making the idea overbroad as stated.
+
 ## External references
 
 - https://every.to/guides/agent-native

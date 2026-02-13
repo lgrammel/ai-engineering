@@ -18,6 +18,10 @@ Taken to its extreme, this framing leads to [dark software factories](./dark-sof
 - Usage-based pricing assumes that agent output quality is consistent enough to charge by volume. If a significant fraction of agent sessions produce unusable output that requires human rework, the effective cost per useful unit of work may exceed per-seat developer tooling, undermining the economic argument.
 - The framing underplays the knowledge-encoding bottleneck. Converting organizational expertise into [skills](../concepts/skill.md) and playbooks is itself expensive, requires deep domain knowledge, and produces artifacts that need ongoing maintenance as the codebase and practices evolve. The "encode once, execute repeatedly" promise assumes a level of stability that most engineering organizations do not have.
 
+## Confidence
+
+**Medium.** The framing is useful and the pricing and organizational implications are practical. The counterarguments about agent reliability and the knowledge-encoding bottleneck are substantial and unresolved at current capability levels, making the "org capacity" framing aspirational rather than proven at scale.
+
 ## External references
 
 - <https://cognition.ai/blog/devin-generally-available>

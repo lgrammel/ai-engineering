@@ -20,6 +20,10 @@ This has a dual-use relationship with [hallucination exploitation](../threats/ha
 - The approach may entrench the conventions of dominant models. If most agents hallucinate git-like commands because of training data distribution, tools that adopt those conventions lock in an ecosystem shaped by the training data of a few frontier models rather than by interface quality.
 - Hallucination-driven design is only feasible when model outputs are consistent enough to form stable desire paths. For less common tools or domains where model behavior is unpredictable, the signal-to-noise ratio of hallucinated patterns may be too low to guide useful design decisions.
 
+## Confidence
+
+**Medium.** The desire-path principle is practical and actionable for tool designers today. The dual-use insight (same predictability enables both good UX and hallucination exploitation) is sharp. However, the approach may be transient - if model hallucination patterns shift significantly across generations, interfaces shaped by today's model quirks may need rework.
+
 ## External references
 
 - https://steve-yegge.medium.com/software-survival-3-0-97a2a6255f7b

@@ -27,6 +27,10 @@ Awareness alone is not sufficient - an offering also needs low friction to stay 
 - Model developers have strong incentives to resist vendor-specific training influence that could compromise model generality. A model trained to favor one database's SQL dialect over equivalent alternatives becomes less useful for the broader user base, creating tension between vendor revenue and model quality.
 - The asymmetry between funded vendors and open-source tools may be offset by organic adoption. If open-source tools generate enough public usage data (Stack Overflow posts, GitHub repositories, tutorials), they may achieve comparable training-time awareness without paid eval partnerships, limiting the practical advantage of the paid channel.
 
+## Confidence
+
+**Medium.** The dynamic is real - agent awareness is scarce and paid training influence exists - but the counterarguments about model retraining cycles and context-time dominance leave the durability of training-time SEO uncertain. The broader concept of optimizing for agent discovery is likely to persist even if the specific mechanisms shift.
+
 ## Synonyms
 
 library evals for model training.

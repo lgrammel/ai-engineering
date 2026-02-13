@@ -16,6 +16,10 @@ This changes the product development feedback loop. Traditional development requ
 - The signal quality depends on the agent being capable enough to attempt (or clearly fail at) the requested task. If the agent silently produces poor results rather than clearly failing, the developer gets a false positive - apparent success that masks an unmet need rather than revealing one.
 - This approach favors incremental feature discovery within the existing tool space. It is less effective at surfacing needs that require fundamentally new tools or capabilities the agent cannot approximate by composing existing primitives.
 
+## Confidence
+
+**Medium.** A clean corollary of agent-native applications with a useful inversion of the product development feedback loop. The concept is sound as a heuristic, but depends on the agent being capable enough to produce meaningful signal, which limits applicability to mature agent-native systems with sufficiently capable underlying models.
+
 ## External references
 
 - https://every.to/guides/agent-native

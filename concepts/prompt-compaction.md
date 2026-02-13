@@ -1,6 +1,6 @@
 # Prompt Compaction
 
-Prompt compaction is the process of reducing the [token](./token.md) count of a [prompt](./prompt.md) while preserving the information the [LLM](./llm.md) needs to perform its task, typically to stay within [context size](./context-size.md) limits or to reduce [latency](./latency.md) and [inference cost](./inference-cost.md).
+Prompt compaction is the process of reducing the [token](./token.md) count of a [prompt](./prompt.md) while preserving the information the [LLM](./llm.md) needs to perform its task, typically to stay within [context size](./context.md) limits or to reduce [latency](./latency.md) and [inference cost](./inference-cost.md).
 
 ## Details
 

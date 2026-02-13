@@ -24,7 +24,6 @@
 - [Context](./context.md)
 - [Context Engineering](./context-engineering.md)
 - [Context Isolation](./context-isolation.md)
-- [Context Size](./context-size.md)
 - [Copilot Interface](./copilot-interface.md)
 - [Distillation](./distillation.md)
 - [Embedding](./embedding.md)

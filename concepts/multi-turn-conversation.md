@@ -1,6 +1,6 @@
 # Multi-turn Conversation
 
-A structural property of AI systems where conversation history accumulates across turns, with each exchange adding content to the [LLM's](./llm.md) [context](./context.md). The application manages this growing history - storing, truncating, or summarizing prior turns to fit within the model's [context size](./context-size.md).
+A structural property of AI systems where conversation history accumulates across turns, with each exchange adding content to the [LLM's](./llm.md) [context](./context.md). The application manages this growing history - storing, truncating, or summarizing prior turns to fit within the model's [context size](./context.md).
 
 ## Details
 

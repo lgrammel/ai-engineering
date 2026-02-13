@@ -4,7 +4,7 @@ A token is a discrete unit from a [tokenizer](./tokenizer.md) vocabulary, repres
 
 ## Details
 
-In [LLMs](./llm.md), objectives like next-token prediction during [training](./training.md) operate over sequences of tokens; during [inference](./inference.md), generated tokens are decoded back into text by the tokenizer. Token counts are the unit for both [context size](./context-size.md) limits and [inference cost](./inference-cost.md) billing, and are tokenizer/model-dependent.
+In [LLMs](./llm.md), objectives like next-token prediction during [training](./training.md) operate over sequences of tokens; during [inference](./inference.md), generated tokens are decoded back into text by the tokenizer. Token counts are the unit for both [context size](./context.md) limits and [inference cost](./inference-cost.md) billing, and are tokenizer/model-dependent.
 
 Note: In other contexts, "token" can mean an authentication credential; here it refers to the model's text units.
 

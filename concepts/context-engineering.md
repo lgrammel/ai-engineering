@@ -1,6 +1,6 @@
 # Context Engineering
 
-Context engineering is the practice of selecting, structuring, and maintaining the [context](./context.md) given to an [LLM](./llm.md) so it reliably performs the desired task within a fixed [context size](./context-size.md).
+Context engineering is the practice of selecting, structuring, and maintaining the [context](./context.md) given to an [LLM](./llm.md) so it reliably performs the desired task within a fixed [context size](./context.md).
 
 ## Details
 

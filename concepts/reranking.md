@@ -6,7 +6,7 @@ Reranking is a second-stage [retrieval](./retrieval.md) step that rescores an in
 
 In a typical [RAG](./rag.md) pipeline, the first stage retrieves a broad set of candidates quickly - via [embedding](./embedding.md)-based nearest-neighbor search from a [vector database](./vector-database.md), keyword search (BM25), or [hybrid search](./hybrid-search.md). These first-stage retrievers are fast but approximate: bi-encoder [embedding models](./embedding-model.md) encode query and document independently, so they cannot model fine-grained interactions between them. A reranker (typically a cross-encoder model) then takes each (query, candidate) pair as joint input and produces a relevance score that captures token-level interactions between the query and the document. Because the reranker processes every candidate pair individually, it is too slow to run over the full corpus but highly effective when applied to a short list (e.g., top 20-100 candidates from the first stage).
 
-Reranking improves precision at the top of the results list, which directly affects output quality in RAG systems where only a handful of passages fit within the model's [context size](./context-size.md). It is a core component of [context engineering](./context-engineering.md): choosing which retrieved passages actually enter the prompt.
+Reranking improves precision at the top of the results list, which directly affects output quality in RAG systems where only a handful of passages fit within the model's [context size](./context.md). It is a core component of [context engineering](./context-engineering.md): choosing which retrieved passages actually enter the prompt.
 
 ## Examples
 

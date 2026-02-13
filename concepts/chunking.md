@@ -4,7 +4,7 @@ Chunking is the process of splitting documents or other content into smaller seg
 
 ## Details
 
-[Embedding models](./embedding-model.md) have input length limits, and retrieval quality depends on each indexed unit carrying focused, coherent information. Chunking bridges the gap between arbitrarily long source documents and the fixed-size vectors stored in a [vector database](./vector-database.md). Chunk size also affects generation: chunks included in the [context](./context.md) at [inference](./inference.md) time consume [tokens](./token.md) and must fit within the model's [context size](./context-size.md).
+[Embedding models](./embedding-model.md) have input length limits, and retrieval quality depends on each indexed unit carrying focused, coherent information. Chunking bridges the gap between arbitrarily long source documents and the fixed-size vectors stored in a [vector database](./vector-database.md). Chunk size also affects generation: chunks included in the [context](./context.md) at [inference](./inference.md) time consume [tokens](./token.md) and must fit within the model's [context size](./context.md).
 
 Common strategies include fixed-size chunking (splitting by [token](./token.md) or character count), semantic chunking (splitting at paragraph, section, or sentence boundaries), recursive chunking (applying progressively finer splits until a target size is reached), and overlapping windows (repeating a portion of text across adjacent chunks to preserve boundary context). Smaller chunks improve retrieval precision but lose surrounding context; larger chunks preserve context but dilute relevance signals and consume more of the generation budget.
 

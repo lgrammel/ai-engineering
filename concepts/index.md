@@ -38,8 +38,6 @@
 - [Hallucination](./hallucination.md)
 - [Human-in-the-Loop](./human-in-the-loop.md)
 - [Hybrid Search](./hybrid-search.md)
-- [Image Generation](./image-generation.md)
-- [Image Understanding](./image-understanding.md)
 - [In-Context Learning](./in-context-learning.md)
 - [Inference](./inference.md)
 - [Inference Cost](./inference-cost.md)

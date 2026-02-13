@@ -1,13 +1,13 @@
 # ChatGPT
 
-OpenAI's ChatGPT is a [multi-turn](../concepts/multi-turn-conversation.md) conversational AI product that combines a [chatbot](../concepts/chatbot.md) interface with an [agent](../concepts/agent.md) loop, [image understanding](../concepts/image-understanding.md), [image generation](../concepts/image-generation.md), [code execution](../concepts/code-execution-tool.md), [computer use](../concepts/computer-use-tool.md), [RAG](../concepts/rag.md)/[web search](../concepts/web-search-tool.md), and [agent memory](../concepts/agent-memory.md), all running in server-side [sandboxes](../concepts/sandbox.md).
+OpenAI's ChatGPT is a [multi-turn](../concepts/multi-turn-conversation.md) conversational AI product that combines a [chatbot](../concepts/chatbot.md) interface with an [agent](../concepts/agent.md) loop, [image understanding](../concepts/multimodal-model.md), [image generation](../concepts/multimodal-model.md), [code execution](../concepts/code-execution-tool.md), [computer use](../concepts/computer-use-tool.md), [RAG](../concepts/rag.md)/[web search](../concepts/web-search-tool.md), and [agent memory](../concepts/agent-memory.md), all running in server-side [sandboxes](../concepts/sandbox.md).
 
 ## Capabilities
 
 - [Multi-turn conversation](../concepts/multi-turn-conversation.md)
 - [Agent](../concepts/agent.md) loop with [tool](../concepts/tools.md) calling
-- [Image understanding](../concepts/image-understanding.md) (vision input processing)
-- [Image generation](../concepts/image-generation.md) (DALL-E)
+- [Image understanding](../concepts/multimodal-model.md) (vision input processing)
+- [Image generation](../concepts/multimodal-model.md) (DALL-E)
 - [Code execution tool](../concepts/code-execution-tool.md) (Python in a sandboxed environment)
 - [Computer use tool](../concepts/computer-use-tool.md)
 - [RAG](../concepts/rag.md) (file search over uploaded documents)
@@ -23,9 +23,9 @@ ChatGPT operates as a broad-capability agent behind a conversational interface. 
 
 The [code execution tool](../concepts/code-execution-tool.md) has no schema boundary - generated code can do anything the sandbox permits, making sandbox quality the sole containment mechanism. User-uploaded files enter the sandbox and become part of the agent's operating environment, where their content can influence reasoning (through the context) and be operated on by generated code. The ephemeral nature of the sandbox limits [persistence attacks](../threats/persistence-attacks.md): generated files and state are discarded after the session.
 
-[Image understanding](../concepts/image-understanding.md) adds a visual [prompt injection](../threats/prompt-injection.md) surface: adversarial content embedded in images (as visible or near-invisible text, QR codes, or steganographic patterns) can redirect model behavior. This is particularly concerning because images appear benign to human reviewers while containing instructions the model processes. User-uploaded images, images encountered during web browsing, and screenshots all become potential injection vectors that bypass text-based input filters.
+[Image understanding](../concepts/multimodal-model.md) adds a visual [prompt injection](../threats/prompt-injection.md) surface: adversarial content embedded in images (as visible or near-invisible text, QR codes, or steganographic patterns) can redirect model behavior. This is particularly concerning because images appear benign to human reviewers while containing instructions the model processes. User-uploaded images, images encountered during web browsing, and screenshots all become potential injection vectors that bypass text-based input filters.
 
-[Image generation](../concepts/image-generation.md) (DALL-E) introduces content manipulation risks: the model can produce photorealistic images that could be mistaken for photographs or used to create fabricated visual evidence. [Guardrails](../concepts/guardrail.md) filter both generation prompts and outputs, but these are probabilistic and subject to [guardrail bypass](../threats/guardrail-bypass.md).
+[Image generation](../concepts/multimodal-model.md) (DALL-E) introduces content manipulation risks: the model can produce photorealistic images that could be mistaken for photographs or used to create fabricated visual evidence. [Guardrails](../concepts/guardrail.md) filter both generation prompts and outputs, but these are probabilistic and subject to [guardrail bypass](../threats/guardrail-bypass.md).
 
 [Web search](../concepts/web-search-tool.md) results and uploaded documents introduce external content into the agent's context, creating injection surfaces for [prompt injection](../threats/prompt-injection.md) and [context poisoning](../threats/context-poisoning.md) through adversarial web pages or document content. [Agent memory](../concepts/agent-memory.md) persists information across sessions, creating a durable influence surface - a compromised session can write poisoned memories that affect future sessions.
 

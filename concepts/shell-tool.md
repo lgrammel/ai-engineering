@@ -14,7 +14,7 @@ The open-ended nature of shell tools makes them a significant attack surface. Th
 
 - Anthropic's bash tool: a provider-defined tool where Claude emits structured shell commands and the developer's agent runtime executes them locally or in a sandbox.
 - An IDE-based [coding agent](./coding-agent.md) running `npm test`, `git diff`, or `grep -r` via shell access to the developer's local environment.
-- A cloud [sandbox service](./sandbox-service.md) that provisions a container with shell access for a remote coding agent to run build and deploy commands.
+- A cloud [sandbox service](./sandbox.md) that provisions a container with shell access for a remote coding agent to run build and deploy commands.
 
 ## Synonyms
 

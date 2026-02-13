@@ -4,7 +4,7 @@ Capturing a snapshot of an [agent's](./agent.md) execution state - typically fil
 
 ## Details
 
-Checkpointing is distinct from [agent memory](./agent-memory.md), which persists selected information across sessions; a checkpoint preserves the full execution context at a specific moment. [Agent runtimes](./agent-runtime.md) manage the state being checkpointed, while [sandbox services](./sandbox-service.md) often provide the underlying snapshotting primitives (filesystem snapshots, container state capture).
+Checkpointing is distinct from [agent memory](./agent-memory.md), which persists selected information across sessions; a checkpoint preserves the full execution context at a specific moment. [Agent runtimes](./agent-runtime.md) manage the state being checkpointed, while [sandbox services](./sandbox.md) often provide the underlying snapshotting primitives (filesystem snapshots, container state capture).
 
 A key application is trajectory forking: branching from a checkpoint to test alternative tool calls, prompts, or recovery strategies without restarting from scratch. This supports iterative debugging (fork from the last good step, fix, and resume), A/B evaluation of agent strategies on identical state, and production recovery (roll back to a known-good checkpoint after a bad tool execution).
 

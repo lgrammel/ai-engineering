@@ -8,7 +8,13 @@ Skills are typically stored as markdown files (e.g., `SKILL.md`) in a project, u
 
 Skills are a [context engineering](./context-engineering.md) mechanism: rather than embedding all procedural knowledge in the base [prompt](./prompt.md), skills allow task-specific instructions to be loaded selectively, keeping the base prompt lean and the context focused. They differ from [tools](./tools.md) in that they provide knowledge and instructions rather than executable capabilities, though a skill may reference or orchestrate tools as part of its instructions.
 
-An open Agent Skills standard defines a portable skill format that works across multiple [coding agents](./coding-agent.md) and IDEs. [Skill repositories](./skill-repository.md) such as skills.sh aggregate and rank skills by installation telemetry.
+An open Agent Skills standard defines a portable skill format that works across multiple [coding agents](./coding-agent.md) and IDEs. Skill repositories such as skills.sh aggregate and rank skills by installation telemetry.
+
+## Skill repositories
+
+A skill repository is a directory or registry that aggregates, indexes, and distributes skills for AI agents. Skill repositories allow developers to discover, share, and install community-authored or vendor-provided skills across multiple [agent runtimes](./agent-runtime.md) and [coding agents](./coding-agent.md) using a single installation command. They typically track installation counts, surface trending or popular skills through leaderboards, and organize entries by category (e.g., frontend best practices, deployment, testing). Skills are often sourced from GitHub repositories and referenced by an `owner/repo` identifier. Installation pulls the skill's markdown files and supporting resources into a local project or user directory where the agent runtime can discover them.
+
+Skill repositories serve a similar ecosystem function to package registries (npm, PyPI) but for procedural knowledge rather than executable code. They lower the barrier to sharing [context engineering](./context-engineering.md) best practices and enable a community-driven approach to extending agent capabilities without modifying the agents themselves. As a distribution vector, skill repositories are also a [supply chain attack](../threats/supply-chain-attack.md) surface - a malicious skill published to a public repository can inject harmful instructions or exfiltrate data once installed into an agent's workflow.
 
 ## Examples
 
@@ -16,6 +22,8 @@ An open Agent Skills standard defines a portable skill format that works across 
 - A deployment skill that walks the agent through running tests, building the application, and pushing to a deployment target.
 - A codebase-conventions skill that teaches the agent project-specific API patterns, naming conventions, and file organization rules.
 - An explain-code skill that instructs the agent to use analogies, ASCII diagrams, and step-by-step walkthroughs when explaining code.
+- [skills.sh](https://skills.sh) - an open agent skills directory with a leaderboard, install CLI (`npx skills add <owner/repo>`), and support for agents including Claude Code, Cursor, Cline, Copilot, and others (skill repository).
+- [agentskills.io](https://agentskills.io) - a skill registry focused on the open Agent Skills standard (skill repository).
 
 ## Synonyms
 
@@ -23,6 +31,7 @@ agent skill, agent rule, custom command, playbook
 
 ## External references
 
+- <https://skills.sh>
 - <https://skills.sh/docs>
 - <https://docs.claude.com/en/docs/claude-code/skills>
 - <https://agentskills.io>

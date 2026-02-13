@@ -14,6 +14,12 @@ Local coding agents run within a developer's environment - typically an IDE or t
 
 Cloud coding agents run on remote infrastructure in their own [sandboxed](./sandbox.md) environments, managed by an [agent hosting platform](./agent-hosting-platform.md). They receive tasks through chat interfaces, Slack, issue trackers, APIs, or CLIs and produce outputs (typically pull requests) that humans review. This delegation model contrasts with the local pair-programming model: the developer describes a task and reviews the result later. Multiple cloud agent sessions can run in parallel, shifting the bottleneck from developer availability to review capacity. Because cloud coding agents connect to repositories, CI pipelines, and deployment infrastructure at the org level, they are accessible to non-developers (PMs, designers, support staff) who can trigger tasks without local tooling or Git knowledge. Integration with [MCP](./mcp.md) servers extends their reach to error tracking, monitoring, databases, and other engineering infrastructure. Teams often encode recurring workflows into [skills](./skill.md) (sometimes called playbooks) so anyone in the organization can trigger a standardized process. Cloud coding agents are well-suited to tasks that are quick to verify and well-scoped: targeted refactors, bug fixes with clear reproduction steps, test coverage, dependency upgrades, CVE remediation, documentation maintenance, and CI failure investigation.
 
+## Code review agents
+
+Code review agents are coding agents specialized for automated review of code changes, typically pull requests. They analyze diffs, detect bugs and style violations, organize changes for readability, and surface relevant context from the broader codebase.
+
+Code review agents become increasingly important as cloud coding agents generate more pull requests in parallel - the bottleneck shifts from writing code to reviewing it. Automated review helps prevent rubber-stamping or accumulating review debt by catching common issues before a human reviewer sees the change, serving as a mitigation against [approval fatigue exploitation](../threats/approval-fatigue-exploitation.md). A code review agent can run on the same cloud infrastructure as the coding agent that produced the change, creating a feedback loop where generated code is automatically screened before human review.
+
 ## Examples
 
 - Cursor agents (background and inline) operating on a local project inside the IDE.
@@ -21,7 +27,9 @@ Cloud coding agents run on remote infrastructure in their own [sandboxed](./sand
 - Devin, a cloud-native coding agent by Cognition that provides its own IDE, shell, and browser in a remote environment.
 - Cursor Background Agents, which execute asynchronously in cloud VMs while the developer continues other work.
 - Google Jules, which generates implementation plans and executes them in a cloud sandbox.
+- Devin Review, which performs automated PR analysis and provides codebase-aware feedback (code review agent).
+- AI-powered review bots that comment on pull requests with bug detection, security checks, and style suggestions (code review agent).
 
 ## Synonyms
 
-software engineering agent, SWE agent, AI coding assistant, local coding agent, cloud coding agent, remote coding agent, desktop coding agent, IDE coding agent
+software engineering agent, SWE agent, AI coding assistant, local coding agent, cloud coding agent, remote coding agent, desktop coding agent, IDE coding agent, code review agent

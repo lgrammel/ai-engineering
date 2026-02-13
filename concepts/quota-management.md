@@ -16,7 +16,7 @@ Quota management is a direct mitigation for "denial of wallet" attacks - a varia
 
 - An [inference provider](./inference-provider.md) offering tiered plans with monthly token budgets (e.g., 1M tokens/month on the free tier, 100M on the enterprise tier).
 - An [AI gateway](./ai-gateway.md) enforcing per-user daily cost caps, cutting off requests once a user's spend exceeds the configured threshold.
-- A [sandbox service](./sandbox-service.md) allocating compute-hour quotas per tenant to prevent resource monopolization.
+- A [sandbox service](./sandbox.md) allocating compute-hour quotas per tenant to prevent resource monopolization.
 - An [agent hosting platform](./agent-hosting-platform.md) tracking per-agent token consumption and halting agents that exceed their allocated budget.
 
 ## Synonyms

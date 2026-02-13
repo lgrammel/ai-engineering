@@ -32,7 +32,6 @@
 - [Evals](./evals.md)
 - [Filesystem Agent](./filesystem-agent.md)
 - [Fine-tuning](./fine-tuning.md)
-- [Function Calling](./function-calling.md)
 - [Grounding](./grounding.md)
 - [Guardrail](./guardrail.md)
 - [Hallucination](./hallucination.md)
